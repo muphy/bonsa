@@ -1,0 +1,5 @@
+1.facebook 사진 나오게 하기
+2.자동 로그인
+  --firebase 가 localStorage 에 저장함.
+3.방이름 수정 
+  -> 현재방에서 방송제목으로

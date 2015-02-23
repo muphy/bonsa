@@ -1,0 +1,8 @@
+{
+    "id": "com.ionicframework.myapp596008",
+    "name": "myApp",
+    "engine": {
+        "id": "cordova",
+        "ver": "3.6.4"
+    }
+}
