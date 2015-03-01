@@ -20,58 +20,7 @@ var App = angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   })
-  // All this does is allow the message 
-  // to be sent when you tap return
-  .directive('input', function($timeout) {
-    return {
-      restrict: 'E',
-      scope: {
-        returnClose: '=',
-        onReturn: '&',
-        onFocus: '&',
-        onBlur: '&'
-      },
-      link: function(scope, element, attr) {
-        element.bind('focus', function(e) {
-          if (scope.onFocus) {
-            $timeout(function() {
-              scope.onFocus();
-            });
-          }
-        });
-        element.bind('blur', function(e) {
-          if (scope.onBlur) {
-            $timeout(function() {
-              scope.onBlur();
-            });
-          }
-        });
-        element.bind('keydown', function(e) {
-          if (e.which == 13) {
-            if (scope.returnClose) element[0].blur();
-            if (scope.onReturn) {
-              $timeout(function() {
-                scope.onReturn();
-              });
-            }
-          }
-        });
-      }
-    }
-  })
-  .directive('userIcon',function() {
-    return {
-      restrict: 'E',
-      template: '<div class="photo icon"></div>',
-      replace: true,
-      link: function(scope, element, attr) {
-        var imageUrl = scope.message.picture;
-        element.css('background-image','url(' + imageUrl + ')');
-      }
-    }
-  })
-
-.config(function($stateProvider, $urlRouterProvider) {
+ .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
     .state('app', {
@@ -119,6 +68,54 @@ var App = angular.module('starter', ['ionic', 'starter.controllers'])
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/rooms');
-});
+})
+.directive('input', function($timeout) {
+          return {
+              restrict: 'E',
+              scope: {
+                  returnClose: '=',
+                  onReturn: '&',
+                  onFocus: '&',
+                  onBlur: '&'
+              },
+              link: function(scope, element, attr) {
+                  element.bind('focus', function(e) {
+                      if (scope.onFocus) {
+                          $timeout(function() {
+                              scope.onFocus();
+                          });
+                      }
+                  });
+                  element.bind('blur', function(e) {
+                      if (scope.onBlur) {
+                          $timeout(function() {
+                              scope.onBlur();
+                          });
+                      }
+                  });
+                  element.bind('keydown', function(e) {
+                      if (e.which == 13) {
+                          if (scope.returnClose) element[0].blur();
+                          if (scope.onReturn) {
+                              $timeout(function() {
+                                  scope.onReturn();
+                              });
+                          }
+                      }
+                  });
+              }
+          }
+      })
+      .directive('userIcon', function() {
+          return {
+              restrict: 'E',
+              template: '<div class="photo icon"></div>',
+              replace: true,
+              link: function(scope, element, attr) {
+                  var imageUrl = scope.message.picture;
+                  element.css('background-image', 'url(' + imageUrl + ')');
+              }
+          }
+      });
 
 

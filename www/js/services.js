@@ -1,12 +1,21 @@
 angular.module('starter.services', ['firebase'])
 
-.factory('UserService', function($firebase, $firebaseAuth) {
+.factory('UserService', function($firebase, $firebaseAuth,$localstorage) {
+  var keyName = 'firebase:session::sizzling-heat-271';
+  var userIdKeyName = 'userId';
+  // console.log($firebaseAuth.facebook.cachedUserProfile);
+  var profile = $localstorage.getObject(keyName);
   var self = this;
+  self.userProfile = profile?profile.facebook.cachedUserProfile:null;
   var ref = new Firebase("https://sizzling-heat-271.firebaseio.com/");
   var auth = $firebaseAuth(ref);
+
   var login = function(provider) {
     auth.$authWithOAuthPopup(provider).then(function(authData) {
       console.log(authData);
+      if(self.onLoginSuccess) {
+        self.onLoginSuccess(authData);
+      }
     }).catch(function(error) {
       console.error("Authentication failed: ", error);
     });
@@ -19,6 +28,7 @@ angular.module('starter.services', ['firebase'])
   ref.onAuth(function(authData) {
     if (authData) {
       self.userId = authData.uid;
+      $localstorage.set(userIdKeyName,authData.uid);
       self.userProfile = authData.facebook.cachedUserProfile;
       ref.child("users").child(authData.uid).set(authData.facebook.cachedUserProfile);
       console.log(self.userProfile );
@@ -43,8 +53,15 @@ angular.module('starter.services', ['firebase'])
     logout: function() {
       return logout();
     },
-    userId: self.userId,
-    userProfile: self.userProfile
+    hasSession: function() {
+      return self.userProfile != null;
+    },
+    getUserProfile: function() {
+      return self.userProfile;
+    },
+    getUserId: function() {
+      return self.userId;
+    }
   }
 })
 .factory('$localstorage', ['$window', function($window) {
@@ -59,7 +76,7 @@ angular.module('starter.services', ['firebase'])
       $window.localStorage[key] = JSON.stringify(value);
     },
     getObject: function(key) {
-      return JSON.parse($window.localStorage[key] || '{}');
+      return JSON.parse($window.localStorage[key] || false);
     },
     remove: function(key) {
       $window.localStorage.removeItem(key);

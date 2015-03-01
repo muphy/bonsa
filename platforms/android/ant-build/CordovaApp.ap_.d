@@ -62,10 +62,14 @@ C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\plugins \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\templates \
+C:\project\bonbang\workspace\myApp\platforms\android\assets\www\css\ionic.app.css \
+C:\project\bonbang\workspace\myApp\platforms\android\assets\www\css\ionic.app.min.css \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\css\style.css \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\img\ionic.png \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js\app.js \
+C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js\chat.js \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js\controllers.js \
+C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js\rooms.js \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\js\services.js \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\css \
@@ -75,6 +79,7 @@ C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\scss \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\version.json \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\css\ionic.css \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\css\ionic.min.css \
+C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\css\style.css \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\fonts\ionicons.eot \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\fonts\ionicons.svg \
 C:\project\bonbang\workspace\myApp\platforms\android\assets\www\lib\ionic\fonts\ionicons.ttf \

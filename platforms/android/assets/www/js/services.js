@@ -1,7 +1,11 @@
 angular.module('starter.services', ['firebase'])
 
-.factory('UserService', function($firebase, $firebaseAuth) {
+.factory('UserService', function($firebase, $firebaseAuth,$localstorage) {
+  var keyName = 'firebase:session::sizzling-heat-271';
+  // console.log($firebaseAuth.facebook.cachedUserProfile);
+  var profile = $localstorage.getObject(keyName);
   var self = this;
+  self.userProfile = $localstorage.getObject(keyName).facebook.cachedUserProfile;
   var ref = new Firebase("https://sizzling-heat-271.firebaseio.com/");
   var auth = $firebaseAuth(ref);
   var login = function(provider) {
@@ -42,6 +46,9 @@ angular.module('starter.services', ['firebase'])
     },
     logout: function() {
       return logout();
+    },
+    hasSession: function() {
+      return self.userProfile != null;
     },
     userId: self.userId,
     userProfile: self.userProfile

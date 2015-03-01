@@ -188,10 +188,18 @@
 	"buffers":
 	[
 		{
-			"file": "www/js/controllers.js",
+			"file": "doc/todolist",
 			"settings":
 			{
-				"buffer_size": 2907,
+				"buffer_size": 344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/rooms.html",
+			"settings":
+			{
+				"buffer_size": 480,
 				"line_ending": "Unix"
 			}
 		},
@@ -199,75 +207,7 @@
 			"file": "www/templates/menu.html",
 			"settings":
 			{
-				"buffer_size": 983,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/js/services.js",
-			"settings":
-			{
-				"buffer_size": 1907,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nConvertToUTF8:\n-------------\n\n  ConvertToUTF8 1.2.9 Changelog\n  \n  Enhancements\n  - Restore folded regions after reloading (#49, thanks to @tinymins)\n  \n  Fixed\n  - Malfunction caused by the corrupted cache file\n  \n  ",
-			"settings":
-			{
-				"buffer_size": 268,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "\n\nSearching 8 files for \"back-button\" (case sensitive)\n\nC:\\project\\bonbang\\workspace\\myApp\\www\\templates\\menu.html:\n    3    <ion-pane ion-side-menu-content>\n    4      <ion-nav-bar class=\"bar-stable nav-title-slide-ios7\">\n    5:       <ion-nav-back-button class=\"button-clear\"><i class=\"icon ion-ios7-arrow-back\"></i> Back</ion-nav-back-button>\n    6      </ion-nav-bar>\n    7      <ion-nav-view name=\"menuContent\" animation=\"slide-left-right\"></ion-nav-view>\n\n2 matches in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 482,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 1251,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "doc/todolist",
-			"settings":
-			{
-				"buffer_size": 92,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/templates/messages.html",
-			"settings":
-			{
-				"buffer_size": 923,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/js/app.js",
-			"settings":
-			{
-				"buffer_size": 3215,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/rooms.html",
-			"settings":
-			{
-				"buffer_size": 486,
+				"buffer_size": 985,
 				"line_ending": "Unix"
 			}
 		}
@@ -275,11 +215,15 @@
 	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
 	{
-		"height": 490.0,
+		"height": 157.0,
 		"selected_items":
 		[
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -300,10 +244,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
 				"Package Control: Install Package"
 			]
 		],
@@ -333,29 +273,41 @@
 	[
 		"/C/project/bonbang/workspace/myApp",
 		"/C/project/bonbang/workspace/myApp/doc",
+		"/C/project/bonbang/workspace/myApp/scss",
 		"/C/project/bonbang/workspace/myApp/www",
 		"/C/project/bonbang/workspace/myApp/www/css",
 		"/C/project/bonbang/workspace/myApp/www/js",
-		"/C/project/bonbang/workspace/myApp/www/lib",
 		"/C/project/bonbang/workspace/myApp/www/lib/ionic",
-		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/fonts",
 		"/C/project/bonbang/workspace/myApp/www/lib/ionic/js",
 		"/C/project/bonbang/workspace/myApp/www/templates"
 	],
 	"file_history":
 	[
-		"/C/project/bonbang/workspace/myApp/www/css/style.css",
+		"/C/project/bonbang/workspace/myApp/www/js/controllers.js",
+		"/C/project/bonbang/workspace/myApp/www/templates/menu.html",
 		"/C/project/bonbang/workspace/myApp/www/js/services.js",
+		"/C/project/bonbang/workspace/myApp/www/templates/browse.html",
+		"/C/project/bonbang/workspace/myApp/www/index.html",
+		"/C/project/bonbang/workspace/myApp/gulpfile.js",
+		"/C/project/bonbang/workspace/myApp/scss/ionic.app.scss",
+		"/C/project/bonbang/workspace/myApp/www/templates/messages.html",
+		"/C/project/bonbang/workspace/myApp/www/templates/rooms.html",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/scss/_util.scss",
+		"/C/project/bonbang/workspace/myApp/www/css/ionic.app.css",
+		"/C/project/bonbang/workspace/myApp/ionic.project",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/lang/isObject.js",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/style.css",
+		"/C/project/bonbang/workspace/myApp/www/css/style.css",
+		"/C/project/bonbang/workspace/myApp/bin/gulpfile.js",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/ionic.css",
+		"/C/project/bonbang/workspace/myApp/start.bat",
+		"/C/project/bonbang/workspace/myApp/www/js/app.js",
 		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/services.js",
 		"/D/project/mcm/test/CORS_test.html",
-		"/C/project/bonbang/workspace/myApp/www/index.html",
-		"/C/project/bonbang/workspace/myApp/www/templates/rooms.html",
-		"/C/project/bonbang/workspace/myApp/www/js/controllers.js",
 		"/C/project/bonbang/workspace/myApp/doc/dev.txt",
-		"/C/project/bonbang/workspace/myApp/www/js/app.js",
 		"/C/project/bonbang/workspace/myApp/www/templates/login.html",
 		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/controllers.js",
-		"/C/project/bonbang/workspace/myApp/www/templates/menu.html",
 		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/log",
 		"/C/project/bonbang/workspace/myApp/platforms/android/local.properties",
 		"/C/project/bonbang/workspace/myApp/node_modules/firebase-token-generator/LICENSE",
@@ -364,7 +316,6 @@
 		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/app.js",
 		"/C/project/bonbang/workspace/myApp/channelCollector.js",
 		"/C/project/bonbang/workspace/myApp/.project",
-		"/C/project/bonbang/workspace/myApp/start.bat",
 		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Events/11-script_in_script.json",
 		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/connect/node_modules/serve-index/public/directory.html",
 		"/C/project/bonbang/workspace/myApp/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js",
@@ -385,14 +336,11 @@
 		"/D/project/ionic/src/myApp/gulpfile.js",
 		"/D/vm/vagrant_meteor/project/first/shared/leaderboard/readme.txt",
 		"/D/project/study/socially/index.html",
-		"/C/project/bonbang/workspace/myApp/www/templates/messages.html",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/cmd.py",
 		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/connect/node_modules/multiparty/test/standalone/test-content-transfer-encoding.js",
 		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/install-device",
 		"/C/project/bonbang/workspace/myApp/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
-		"/C/project/bonbang/workspace/myApp/ionic.project",
-		"/C/project/bonbang/workspace/myApp/gulpfile.js",
 		"/C/project/bonbang/ref/Ionic-Chat/package.json",
 		"/D/download/ionic-contrib-frosted-glass-master/www/js/controllers.js",
 		"/D/download/ionic-contrib-frosted-glass-master/www/js/app.js",
@@ -463,15 +411,7 @@
 		"/C/project/p2c/workspace/p2c/assets/js/app/models/form.fragment.model.js",
 		"/C/project/p2c/workspace/p2c/node_modules/grunt/node_modules/coffee-script/Rakefile",
 		"/C/project/p2c/workspace/p2c/node_modules/grunt/node_modules/underscore.string/test/test_underscore/arrays.js",
-		"/C/project/p2c/workspace/p2c/assets/styles/css/custom-componnets.css",
-		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/models/form.model.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/book_kind_choice_form/step2.view.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/book_kind_choice_form/step1.view.js",
-		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/views/main/body.view.js",
-		"/C/project/p2c/workspace/p2c/assets/styles/plugins/jquery.bxslider.css",
-		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/order/tpl.order.form.js",
-		"/C/project/p2c/workspace/p2c/assets/js/lib/jquery.bxslider.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/calc/tpl.cal.result.js"
+		"/C/project/p2c/workspace/p2c/assets/styles/css/custom-componnets.css"
 	],
 	"find":
 	{
@@ -482,6 +422,8 @@
 		"height": 185.0,
 		"where_history":
 		[
+			"<open folders>",
+			"",
 			"<open files>",
 			"<open folders>",
 			""
@@ -492,6 +434,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$light",
+			"messaging-view",
+			".platform-c:not",
+			"class=bar",
+			"bar",
 			"back-button",
 			"현재방",
 			"Back",
@@ -614,12 +561,7 @@
 			"slider",
 			"lib",
 			"());\n",
-			"alert",
-			"정미연수",
-			"slideWidth",
-			"test_slider",
-			"define(\n    ['dummylib', ],\n    function(dummyLib) {\n        var run = function() {\n            test('dummyLib should return the sum of the two supplied numbers.', function() {\n                equal(dummyLib(1, 1), 2, 'The return should be 2.');\n                equal(dummyLib(-2, 1), -1, 'The return should be -1.');\n            });\n        };\n        return {\n            run: run\n        }\n    }\n);",
-			"module.exports = {\n    index1: function(req, res) {\n        res.view({\n            layout: 'test_layout'\n        });\n    }\n}"
+			"alert"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -644,50 +586,49 @@
 			[
 				{
 					"buffer": 0,
-					"file": "www/js/controllers.js",
+					"file": "doc/todolist",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2907,
+						"buffer_size": 344,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1104,
-								1104
+								344,
+								344
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"open_with_edit": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "www/templates/menu.html",
+					"file": "www/templates/rooms.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 983,
+						"buffer_size": 480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								480,
+								480
 							]
 						],
 						"settings":
@@ -706,276 +647,33 @@
 				},
 				{
 					"buffer": 2,
-					"file": "www/js/services.js",
+					"file": "www/templates/menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1907,
+						"buffer_size": 985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1303,
-								1303
+								690,
+								690
 							]
 						],
 						"settings":
 						{
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								268,
-								268
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 482,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										245,
-										256
-									],
-									[
-										333,
-										344
-									],
-									[
-										482,
-										482
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 5,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1084,
-								1084
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "doc/todolist",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 7,
-					"file": "www/templates/messages.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								493,
-								493
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "www/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2279,
-								2279
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "www/templates/rooms.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								486,
-								486
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -998,18 +696,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.445833333333,
 			1.0
 		],
 		"rows":
@@ -1039,6 +730,26 @@
 		"selected_items":
 		[
 			[
+				"ionic",
+				"scss\\ionic.app.scss"
+			],
+			[
+				"ionic.app.s",
+				"scss\\ionic.app.scss"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"style",
+				"www\\css\\style.css"
+			],
+			[
+				"index",
+				"www\\index.html"
+			],
+			[
 				"login",
 				"www\\templates\\login.html"
 			],
@@ -1049,10 +760,6 @@
 			[
 				"cont",
 				"www\\js\\controllers.js"
-			],
-			[
-				"index",
-				"www\\index.html"
 			],
 			[
 				"contro",
