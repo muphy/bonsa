@@ -1,2 +1,12 @@
-
+.messaging-view .message.me .message .userName {
+  font-size: 10px;
+  color: black;
+  text-align: right;
+}
+.messaging-view .message.me .photo {
+  float: right;
+}
+.messaging-view .message.me .message {
+  text-align: right;
+}
 

@@ -26,7 +26,13 @@ angular.module('starter.controllers', ['starter.services'])
     $scope.login = function() {
         $scope.modal.show();
     };
+    $scope.profileImg = function() {
+      return UserService.getUserProfileImage();
+    };
 
+    $scope.hasSession = function() {
+      return UserService.hasSession();
+    }
 });
 
 
