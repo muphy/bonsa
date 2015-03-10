@@ -8,7 +8,7 @@
     $scope.hide = function() {
         $ionicLoading.hide();
     };
-
+    $scope.title = "대화방";
     $scope.show();
     $http.get('https://sizzling-heat-271.firebaseio.com/rooms.json').
     success(function(data, status, headers, config) {
@@ -19,6 +19,7 @@
         }
         $scope.rooms = temp;
         $scope.hide();
+        console.log('fetches rooms list.')
     }).
     error(function(data, status, headers, config) {
         console.log('error');

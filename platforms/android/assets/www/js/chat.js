@@ -73,6 +73,7 @@ App.directive('input', function($timeout) {
       });
       // download the data into a local object
       $scope.sendMessage = function() {
+          if(!$scope.data) return;
           var message = $scope.data.message;
           var userProfile = UserService.getUserProfile();
           var userId = UserService.getUserId();
@@ -88,15 +89,16 @@ App.directive('input', function($timeout) {
           $ionicScrollDelegate.scrollBottom(true);
       }
 
-      $scope.hasSession = function() {
-        UserService.onLoginSuccess = function(authData) {
-          $scope.modal.hide();
-        };
-        if(UserService.hasSession()) {
+      $scope.checkSession = function() {
+        // UserService.onLoginSuccess = function(authData) {
+        //   $scope.modal.hide();
+        // };
+        // if(UserService.hasSession()) {
 
-        } else {
-          $scope.modal.show();
-        }
+        // } else {
+        //   $scope.modal.show();
+        // }
+        return true;
       };
 
       $scope.inputUp = function() {

@@ -19,80 +19,70 @@ $dark:                            #444 !default;
 $ionicons-font-path:'../lib/ionic/fonts' !default;
 // Include all of Ionic
 @import 'www/lib/ionic/scss/ionic';
-
 .content-stable {
-  background: $stable;
+    background: $stable;
 }
-
 .messaging-view {
-
-  .scroll {
-    min-height: 100%;
-    padding: 10px 0 50px;
-  }
-
-  .message {
-
-    padding: 0 10px 10px;
-
-    .photo {
-      height: 44px;
-      width: 44px;
-      background-color: #d6d6d6;
-      background-size: cover;
-      float: left;
-      font-size: 50px;
-      text-align: center;
-      border-radius: 50%;
-      overflow: hidden;
+    .scroll {
+        min-height: 100%;
+        padding: 10px 0 50px;
     }
-
     .message {
-      overflow: hidden;
-      padding: 5px 5px 0;
-      text-align: left;
-
-
-      span {
-        background: #fff;
-        padding: 10px;
-        display: inline-block;
-        border-radius: 10px;
-        text-align: left;
-      }
-
-    }
-
-    &.other {
-      .photo {
-        float: right;
-      }
-
-      .message {
-        text-align: right;
-
-        span {
-
+        padding: 0 10px 10px;
+        .photo {
+            height: 44px;
+            width: 44px;
+            background-color: #d6d6d6;
+            background-size: cover;
+            float: left;
+            font-size: 50px;
+            text-align: center;
+            border-radius: 50%;
+            overflow: hidden;
         }
-      }
+        .userName {
+            font-size: 10px;
+            color: black;
+        }
+        .message {
+            overflow: hidden;
+            padding: 5px 5px 0;
+            text-align: left;
+            span {
+                background: #fff;
+                padding: 5px;
+                display: inline-block;
+                border-radius: 10px;
+                text-align: left;
+            }
+        }
+        &.me {
+            .photo {
+                float: right;
+            }
+            .message {
+                text-align: right;
+                span {} .userName {
+                    font-size: 10px;
+                    color: black;
+                    text-align: right;
+                }
+            }
+        }
     }
-  }
-
-  .message-input {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background: #fff;
-    z-index: 20;
-
-    input {
-      width: 100%;
-      height: 100%;
-      background: none;
-
-      padding: 0 15px;
+    .message-input {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background: #fff;
+        z-index: 20;
+        input {
+            width: 100%;
+            height: 100%;
+            background: none;
+            padding: 0 15px;
+        }
     }
-  }
 }

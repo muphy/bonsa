@@ -13,10 +13,10 @@
     </header>
     <ion-content class="has-header">
       <ion-list>
-        <ion-item ng-show="!hasSession" nav-clear menu-close ng-click="login()">
+        <ion-item ng-show="!hasSession()" nav-clear menu-close ng-click="login()">
           로그인
         </ion-item>
-        <ion-item ng-show="hasSession" nav-clear menu-close ng-click="logout()">
+        <ion-item ng-show="hasSession()" nav-clear menu-close ng-click="logout()">
           <img ng-src="{{profileImg()}}"/>로그아웃
         </ion-item>        
 <!--         <ion-item nav-clear menu-close href="#/app/search">

@@ -10,6 +10,12 @@ angular.module('starter.controllers', ['starter.services'])
         UserService.logout();
     };
 
+    $scope.$on('onLoginSuccess', function (event, authData) {
+      console.log(authData); // 'Some data'
+      $scope.closeLogin();
+    });
+    
+
     // Create the login modal that we will use later
     $ionicModal.fromTemplateUrl('templates/login.html', {
         scope: $scope

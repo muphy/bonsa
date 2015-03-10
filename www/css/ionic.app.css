@@ -7833,20 +7833,27 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
     text-align: center;
     border-radius: 50%;
     overflow: hidden; }
+  .messaging-view .message .userName {
+    font-size: 10px;
+    color: black; }
   .messaging-view .message .message {
     overflow: hidden;
     padding: 5px 5px 0;
     text-align: left; }
     .messaging-view .message .message span {
       background: #fff;
-      padding: 10px;
+      padding: 5px;
       display: inline-block;
       border-radius: 10px;
       text-align: left; }
-  .messaging-view .message.other .photo {
+  .messaging-view .message.me .photo {
     float: right; }
-  .messaging-view .message.other .message {
+  .messaging-view .message.me .message {
     text-align: right; }
+    .messaging-view .message.me .message .userName {
+      font-size: 10px;
+      color: black;
+      text-align: right; }
 .messaging-view .message-input {
   position: fixed;
   bottom: 0;

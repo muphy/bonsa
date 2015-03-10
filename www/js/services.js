@@ -1,6 +1,6 @@
 angular.module('starter.services', ['firebase'])
 
-.factory('UserService', function($firebase, $firebaseAuth,$localstorage) {
+.factory('UserService', function($rootScope,$firebase, $firebaseAuth,$localstorage) {
   
   var userIdKeyName = 'userId';
   // console.log($firebaseAuth.facebook.cachedUserProfile);
@@ -13,16 +13,14 @@ angular.module('starter.services', ['firebase'])
   var login = function(provider) {
     auth.$authWithOAuthPopup(provider).then(function(authData) {
       console.log(authData);
-      if(self.onLoginSuccess) {
-        self.onLoginSuccess(authData);
-      }
+      $rootScope.$broadcast("onLoginSuccess", authData);
     }).catch(function(error) {
       console.error("Authentication failed: ", error);
     });
   };
 
-  var logout = function() {
-    auth.$logout();
+  var logout = function(provider) {
+    auth.$unauth();
   };
 
   ref.onAuth(function(authData) {
@@ -49,11 +47,12 @@ angular.module('starter.services', ['firebase'])
     login: function(provider) {
       return login(provider);
     },
-    logout: function() {
-      return logout();
+    logout: function(provider) {
+      return logout(provider);
     },
     hasSession: function() {
-      return this.getUserProfile() != null;
+      var hasSession = this.getUserProfile() != null;
+      return hasSession;
     },
     getUserProfile: function() {
       var keyName = 'firebase:session::sizzling-heat-271';
@@ -64,7 +63,8 @@ angular.module('starter.services', ['firebase'])
       return self.userId;
     },
     getUserProfileImage: function() {
-      return this.getUserProfile().picture.data.url;
+      var userProfile = this.getUserProfile();
+      return userProfile?userProfile.picture.data.url:null;
     }
   }
 })
