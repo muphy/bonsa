@@ -199,23 +199,79 @@
 			"file": "doc/todolist",
 			"settings":
 			{
-				"buffer_size": 344,
+				"buffer_size": 260,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/templates/rooms.html",
-			"settings":
-			{
-				"buffer_size": 489,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 1137,
+				"buffer_size": 1185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/lib/ionic/js/ionic.bundle.js",
+			"settings":
+			{
+				"buffer_size": 1526173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/lib/ionic/js/angular/angular.js",
+			"settings":
+			{
+				"buffer_size": 782956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/services.js",
+			"settings":
+			{
+				"buffer_size": 4829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/login.html",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/chat.js",
+			"settings":
+			{
+				"buffer_size": 4730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/messages.html",
+			"settings":
+			{
+				"buffer_size": 1282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/menu.html",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1114,
 				"line_ending": "Unix"
 			}
 		},
@@ -228,93 +284,18 @@
 			}
 		},
 		{
-			"file": "www/css/ionic.app.css",
-			"settings":
-			{
-				"buffer_size": 235848,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/css/style.css",
-			"settings":
-			{
-				"buffer_size": 225,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/js/chat.js",
-			"settings":
-			{
-				"buffer_size": 4578,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "doc/dev.txt",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "www/js/rooms.js",
 			"settings":
 			{
-				"buffer_size": 755,
+				"buffer_size": 389,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/js/services.js",
+			"file": "www/templates/rooms.html",
 			"settings":
 			{
-				"buffer_size": 4042,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/.gitignore",
-			"settings":
-			{
-				"buffer_size": 30,
-				"line_ending": "Windows",
-				"name": ".gitignore"
-			}
-		},
-		{
-			"contents": "\n\nSearching 5 files for \"alert(\" (case sensitive)\n\nC:\\project\\bonbang\\workspace\\myApp\\www\\js\\rooms.js:\n   10      };\n   11  \n   12:     alert(UserService.hasSession());\n   13      $scope.show();\n   14      $http.get('https://sizzling-heat-271.firebaseio.com/rooms.json').\n\n1 match in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 291,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "www/js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 967,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/menu.html",
-			"settings":
-			{
-				"buffer_size": 1170,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/messages.html",
-			"settings":
-			{
-				"buffer_size": 1031,
+				"buffer_size": 490,
 				"line_ending": "Unix"
 			}
 		}
@@ -378,6 +359,7 @@
 	},
 	"expanded_folders":
 	[
+		"/C/project/bonbang/workspace/myApp",
 		"/C/project/bonbang/workspace/myApp/doc",
 		"/C/project/bonbang/workspace/myApp/scss",
 		"/C/project/bonbang/workspace/myApp/www",
@@ -387,6 +369,24 @@
 	],
 	"file_history":
 	[
+		"/C/project/bonbang/workspace/myApp/node_modules/request/node_modules/hawk/test/message.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-util/lib/isNull.js",
+		"/C/project/bonbang/workspace/myApp/www/index.html",
+		"/C/project/bonbang/workspace/myApp/www/css/style.css",
+		"/C/project/bonbang/workspace/myApp/www/js/rooms.js",
+		"/C/project/bonbang/workspace/myApp/scss/ionic.app.scss",
+		"/C/project/bonbang/workspace/myApp/www/templates/messages.html",
+		"/C/project/bonbang/workspace/myApp/www/templates/menu.html",
+		"/C/project/bonbang/workspace/myApp/www/js/controllers.js",
+		"/C/project/bonbang/workspace/myApp/www/js/chat.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Documents/Attributes.html",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/handlebars/coverage/lcov-report/dist/cjs/handlebars/compiler/ast.js.html",
+		"/C/project/bonbang/workspace/myApp/www/js/app.js",
+		"/C/project/bonbang/workspace/myApp/channelCollector.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/cardinal/test/cardinal-highlight-json.js",
+		"/C/project/bonbang/workspace/myApp/www/templates/rooms.html",
+		"/C/project/bonbang/workspace/myApp/www/css/ionic.app.css",
+		"/C/project/bonbang/workspace/myApp/www/.gitignore",
 		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/retry/lib/retry_operation.js",
 		"/C/project/bonbang/workspace/myApp/hooks/README.md",
 		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/start-emulator",
@@ -398,27 +398,17 @@
 		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mkdirp/test/umask_sync.js",
 		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/lib/utils.js",
 		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/date/timezoneOffset.js",
-		"/C/project/bonbang/workspace/myApp/node_modules/gulp-util/lib/isNull.js",
-		"/C/project/bonbang/workspace/myApp/www/css/style.css",
-		"/C/project/bonbang/workspace/myApp/scss/ionic.app.scss",
 		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/appinfo.js",
-		"/C/project/bonbang/workspace/myApp/www/js/controllers.js",
-		"/C/project/bonbang/workspace/myApp/www/templates/menu.html",
 		"/C/project/bonbang/workspace/myApp/www/js/services.js",
 		"/C/project/bonbang/workspace/myApp/www/templates/browse.html",
-		"/C/project/bonbang/workspace/myApp/www/index.html",
 		"/C/project/bonbang/workspace/myApp/gulpfile.js",
-		"/C/project/bonbang/workspace/myApp/www/templates/messages.html",
-		"/C/project/bonbang/workspace/myApp/www/templates/rooms.html",
 		"/C/project/bonbang/workspace/myApp/www/lib/ionic/scss/_util.scss",
-		"/C/project/bonbang/workspace/myApp/www/css/ionic.app.css",
 		"/C/project/bonbang/workspace/myApp/ionic.project",
 		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/lang/isObject.js",
 		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/style.css",
 		"/C/project/bonbang/workspace/myApp/bin/gulpfile.js",
 		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/ionic.css",
 		"/C/project/bonbang/workspace/myApp/start.bat",
-		"/C/project/bonbang/workspace/myApp/www/js/app.js",
 		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/services.js",
 		"/D/project/mcm/test/CORS_test.html",
 		"/C/project/bonbang/workspace/myApp/doc/dev.txt",
@@ -430,7 +420,6 @@
 		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/Makefile",
 		"/C/project/bonbang/workspace/myApp/firebase.json",
 		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/app.js",
-		"/C/project/bonbang/workspace/myApp/channelCollector.js",
 		"/C/project/bonbang/workspace/myApp/.project",
 		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Events/11-script_in_script.json",
 		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/connect/node_modules/serve-index/public/directory.html",
@@ -507,14 +496,7 @@
 		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/main/content/book_kind_choice_form/step2.html",
 		"/C/project/p2c/workspace/p2c/assets/js/app/views/order/form.fragment.view.js",
 		"/C/project/p2c/workspace/p2c/assets/js/app/views/order/form.view.js",
-		"/C/project/p2c/workspace/p2c/views/layout_old.ejs",
-		"/C/project/p2c/workspace/p2c/views/test_layout.ejs",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/content/book_kind_choice_form/step1.view.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/models/form.model.js",
-		"/C/project/p2c/workspace/p2c/node_modules/optimist/example/line_count_options.js",
-		"/C/project/p2c/workspace/p2c/config/i18n.js",
-		"/C/project/p2c/workspace/p2c/node_modules/grunt/node_modules/underscore.string/test/test_underscore/collections.js",
-		"/C/project/p2c/workspace/p2c/node_modules/sails-mongo/node_modules/mongodb/lib/mongodb/collection.js"
+		"/C/project/p2c/workspace/p2c/views/layout_old.ejs"
 	],
 	"find":
 	{
@@ -525,6 +507,7 @@
 		"height": 185.0,
 		"where_history":
 		[
+			"*,C:\\project\\bonbang\\workspace\\myApp\\www",
 			"*.js,C:\\project\\bonbang\\workspace\\myApp\\www\\js",
 			"*.js,<open folders>,<open files>,C:\\project\\bonbang\\workspace\\myApp\\www\\js",
 			"*.js,<open folders>,<open files>",
@@ -543,6 +526,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"hasSession",
+			"findRoomById",
+			"rooms",
+			"UserService",
+			"$ionicLoading",
+			"myHTML",
+			"onLoginSuccess",
+			"profileImg",
 			"userIdKeyName",
 			"self.userProfile",
 			"profile",
@@ -662,15 +653,7 @@
 			"            <li class=\"\">\n              <a href=\"#tab4\" data-toggle=\"tab\">\n                99.9% Uptime \n                <small>Rhoncus adipiscing</small>\n                <i class=\"fa fa-angle-right\"></i>\n              </a>\n            </li>",
 			"templateName",
 			"controls.png",
-			"control.png",
-			"),\n",
-			"},\n",
-			"tpl.widget",
-			"header_branding_region",
-			"_",
-			"underscore",
-			"        // template: _.template(tpl_asheet),",
-			"        // template: _.template(tpl_asheet),\n        render: function() {\n            // this.$el.append(this.template());\n            this.slider.render().initParam();\n            return this;\n        },"
+			"control.png"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -690,7 +673,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -699,15 +682,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 344,
+						"buffer_size": 260,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								92,
-								92
+								260,
+								260
 							]
 						],
 						"settings":
@@ -720,55 +703,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "www/templates/rooms.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								489,
-								489
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "www/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1137,
+						"buffer_size": 1185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1128,
-								1128
+								394,
+								394
 							]
 						],
 						"settings":
@@ -782,24 +734,86 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "www/js/app.js",
+					"buffer": 2,
+					"file": "www/lib/ionic/js/ionic.bundle.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1917,
+						"buffer_size": 1526173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								981,
-								981
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/lib/ionic/js/angular/angular.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9419,
+								9419
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2106,
+								2106
 							]
 						],
 						"settings":
@@ -810,62 +824,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/css/ionic.app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 235848,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								235661,
-								235661
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 156325.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "www/css/style.css",
+					"file": "www/templates/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 225,
+						"buffer_size": 386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								220,
+								220
 							]
 						],
 						"settings":
 						{
+							"clone_numbers": 1,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -880,83 +866,321 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4578,
+						"buffer_size": 4730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4578,
-								4578
+								2185,
+								2185
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
+							"clone_numbers": 1,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 40.0,
+						"translation.y": 1860.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/templates/messages.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								980,
+								980
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 2,
+							"history_list_is_closing": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/templates/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								793,
+								793
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 0,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/templates/messages.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1282,
+								1282
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/chat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1654.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "doc/dev.txt",
-					"semi_transient": true,
+					"buffer": 10,
+					"file": "www/js/app.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 136,
+						"buffer_size": 1917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								1136,
+								1136
 							]
 						],
 						"settings":
 						{
+							"check_times": 0,
+							"clone_numbers": 1,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "www/js/rooms.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 755,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								153
+								389,
+								389
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
+							"clone_numbers": 0,
+							"history_list_is_closing": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 12.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/templates/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -968,196 +1192,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "www/js/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4042,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1387,
-								1387
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "www/.gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".gitignore",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 291,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										136,
-										142
-									],
-									[
-										291,
-										291
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 8,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "www/js/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 967,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								264,
-								264
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "www/templates/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								464
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 7,
 					"file": "www/templates/messages.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1031,
+						"buffer_size": 1282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								723,
+								723
 							]
 						],
 						"settings":
 						{
+							"clone_numbers": 2,
+							"history_list_is_closing": true,
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
@@ -1167,7 +1221,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "www/templates/rooms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 0,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1190,11 +1277,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.620975222953,
 			1.0
 		],
 		"rows":
@@ -1224,35 +1318,67 @@
 		"selected_items":
 		[
 			[
-				"menu",
-				"www\\templates\\menu.html"
+				"chat.js",
+				"www\\js\\chat.js"
 			],
 			[
-				"app",
-				"www\\js\\app.js"
-			],
-			[
-				"rooms",
-				"www\\templates\\rooms.html"
-			],
-			[
-				"service",
-				"www\\js\\services.js"
+				"index",
+				"www\\index.html"
 			],
 			[
 				"todo",
 				"doc\\todolist"
 			],
 			[
+				"menu",
+				"www\\templates\\menu.html"
+			],
+			[
+				"ser",
+				"www\\js\\services.js"
+			],
+			[
+				"rooms",
+				"www\\js\\rooms.js"
+			],
+			[
+				"message.h",
+				"www\\templates\\messages.html"
+			],
+			[
+				"todoli",
+				"doc\\todolist"
+			],
+			[
+				"login",
+				"www\\templates\\login.html"
+			],
+			[
+				"chat",
+				"www\\js\\chat.js"
+			],
+			[
+				"app",
+				"www\\js\\app.js"
+			],
+			[
 				"message",
 				"www\\templates\\messages.html"
 			],
 			[
-				"inde",
-				"www\\index.html"
+				"login.h",
+				"www\\templates\\login.html"
 			],
 			[
-				"index",
+				"con",
+				"www\\js\\controllers.js"
+			],
+			[
+				"service",
+				"www\\js\\services.js"
+			],
+			[
+				"inde",
 				"www\\index.html"
 			],
 			[
@@ -1274,10 +1400,6 @@
 			[
 				"style",
 				"www\\css\\style.css"
-			],
-			[
-				"login",
-				"www\\templates\\login.html"
 			],
 			[
 				"cont",

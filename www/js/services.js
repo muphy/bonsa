@@ -87,6 +87,32 @@ angular.module('starter.services', ['firebase'])
     }
   }
 }])
+.factory('RoomService', function($firebase, $http,$filter) {
+  var self = this;
+  self.rooms = [];
+  $http.get('https://sizzling-heat-271.firebaseio.com/rooms.json').
+  success(function(data, status, headers, config) {
+      for (var o in data) {
+          self.rooms.push(data[o]);
+      }
+      console.log('fetches rooms list.')
+  }).
+  error(function(data, status, headers, config) {
+      console.log('error');
+      console.log(data);
+      // $scope.hide();
+  });
+  return {
+    fetchRooms: function() {
+      return self.rooms;
+    },
+    findRoomById: function(id) {
+      return $filter('filter')(self.rooms,function(r) {
+        return r.id == id;
+      })[0];
+    }
+  }
+})
 
 
 /* key = firebase:session::sizzling-heat-271 */

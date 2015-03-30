@@ -50,13 +50,14 @@ App.directive('input', function($timeout) {
       });
 
 
-  App.controller('Messages', function($scope, $timeout, $firebase, $ionicScrollDelegate, $stateParams, UserService,$ionicModal) {
+  App.controller('Messages', function($scope, $timeout, $firebase, $ionicScrollDelegate, $stateParams, UserService,RoomService,$ionicModal) {
 
       console.log($stateParams.id);
 
       var isIOS = ionic.Platform.isWebView() && ionic.Platform.isIOS();
 
       var roomId = $stateParams.id;
+      $scope.title = RoomService.findRoomById(roomId).title;
       var userId = UserService.getUserId();
       var ref = new Firebase("https://sizzling-heat-271.firebaseio.com/messages/" + roomId).limitToLast(200); //.orderBy("timestamp").limitToLast(10);
       //    ref.orderByKey().on("child_added", function(snapshot) {
