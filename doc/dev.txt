@@ -1,5 +1,2 @@
-1.facebook
-  1579238292290077
-  9f0bb2b91d566ea8f8782788faab73be
 2.install plugin 
   - ionic plugin add org.apache.cordova.inappbrowser
