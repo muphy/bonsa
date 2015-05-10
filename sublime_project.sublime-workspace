@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"cons",
+				"console"
+			],
+			[
+				"pro",
+				"programJSONInfo"
+			],
+			[
+				"wri",
+				"writeToFile"
+			],
+			[
+				"ur",
+				"urlFormatterList"
+			],
+			[
+				"req",
+				"requestJSON"
+			],
+			[
 				"h",
 				"hasSession"
 			],
@@ -128,10 +148,6 @@
 				"book_fold"
 			],
 			[
-				"pro",
-				"product_name"
-			],
-			[
 				"paper_cover_book",
 				"paper_cover_book_page"
 			],
@@ -196,54 +212,6 @@
 	"buffers":
 	[
 		{
-			"file": "doc/todolist",
-			"settings":
-			{
-				"buffer_size": 260,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 1185,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/lib/ionic/js/ionic.bundle.js",
-			"settings":
-			{
-				"buffer_size": 1526173,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/lib/ionic/js/angular/angular.js",
-			"settings":
-			{
-				"buffer_size": 782956,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/js/services.js",
-			"settings":
-			{
-				"buffer_size": 4829,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/login.html",
-			"settings":
-			{
-				"buffer_size": 386,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "www/js/chat.js",
 			"settings":
 			{
@@ -252,58 +220,58 @@
 			}
 		},
 		{
-			"file": "www/templates/messages.html",
+			"contents": "var Promise = require(\"bluebird\");\nvar util = require('util');\nvar needle = require('needle');\nvar _ = require('underscore');\nvar fs = require('fs');\n\nfunction Today() {\n    var today = new Date();\n    var dd = today.getDate();\n    var mm = today.getMonth() + 1;\n    var year = today.getFullYear();\n    if (dd < 10) {\n        dd = '0' + dd\n    }\n    if (mm < 10) {\n        mm = '0' + mm\n    }\n    this.date = year + mm + dd;\n    this.hour = today.getHours()+1;\n}\n\nfunction URLs() {\n    var PROGRAME_BASE_URL = 'http://tvguide.naver.com/program/multiChannel.nhn?';\n    var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s&hour=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s&hour=%s'];\n    var URLs = _.map(urlFormatterList, function(urlFormat) {\n        var today = new Today();\n        return util.format(urlFormat, today.date, today.hour);\n    });\n    return URLs;\n}\n\nfunction process() {\n    Promise.promisifyAll(needle);\n    var current = Promise.resolve();\n    var options = {\n        headers: {\n            \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36\",\n        }\n    };\n    Promise.map(URLs(), function(URL) {\n    	console.log(URL);\n        current = current.then(function() {\n            return needle.getAsync(URL, options);\n        });\n        return current;\n    }).map(function(responseAndBody) {\n        var b = responseAndBody[1].match(/PROGRAM_SCHEDULES=[\\s\\S]*?;/gm);\n        // console.log(b);\n        var strSchedule = b[0].replace('PROGRAM_SCHEDULES=', '').replace(';', '');\n        // console.log(strSchedule);\n        var result = JSON.parse(strSchedule);\n        return strSchedule;\n    }).then(function(results) {\n        _.each(results, function(result) {\n        	var channelList = result.channelList\n            fs.writeFile(\"./\"+i+\".json\", result, function(err) {\n                if (err) {\n                    return console.log(err);\n                }\n                console.log(\"The file was saved!\");\n            });\n        });\n\n    }).then(function() {\n        console.log('All Needle requests saved');\n    }).catch(function(e) {\n        console.log(e);\n    });\n}\n\nprocess();\n",
+			"file": "programReader.js",
+			"file_size": 2207,
+			"file_write_time": 130756582817990345,
 			"settings":
 			{
-				"buffer_size": 1282,
-				"line_ending": "Unix"
+				"buffer_size": 2228,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/templates/menu.html",
+			"file": "0.json",
 			"settings":
 			{
-				"buffer_size": 1174,
-				"line_ending": "Unix"
+				"buffer_size": 81035,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/js/controllers.js",
+			"file": "1.json",
 			"settings":
 			{
-				"buffer_size": 1114,
-				"line_ending": "Unix"
+				"buffer_size": 29877,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/js/app.js",
+			"file": "sample.json",
 			"settings":
 			{
-				"buffer_size": 1917,
-				"line_ending": "Unix"
+				"buffer_size": 85608,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/js/rooms.js",
+			"file": "channelCollector.js",
 			"settings":
 			{
-				"buffer_size": 389,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/templates/rooms.html",
-			"settings":
-			{
-				"buffer_size": 490,
-				"line_ending": "Unix"
+				"buffer_size": 4633,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 157.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -342,6 +310,7 @@
 		"height": 126.0,
 		"history":
 		[
+			"dir",
 			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
 			"gulp",
 			"dir",
@@ -359,16 +328,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/project/bonbang/workspace/myApp",
-		"/C/project/bonbang/workspace/myApp/doc",
-		"/C/project/bonbang/workspace/myApp/scss",
-		"/C/project/bonbang/workspace/myApp/www",
-		"/C/project/bonbang/workspace/myApp/www/css",
-		"/C/project/bonbang/workspace/myApp/www/js",
-		"/C/project/bonbang/workspace/myApp/www/templates"
+		"/D/project/bonsa/bonsa"
 	],
 	"file_history":
 	[
+		"/D/project/bonsa/bonsa/programReader.js",
+		"/D/project/bonsa/bonsa/programReader.sj",
+		"/D/project/bonsa/bonsa/tmp.txt",
+		"/D/project/bonsa/bonsa/www/templates/menu.html",
+		"/D/project/bonsa/bonsa/www/js/rooms.js",
+		"/D/project/bonsa/bonsa/www/templates/messages.html",
+		"/D/project/bonsa/bonsa/www/templates/rooms.html",
+		"/D/project/bonsa/bonsa/doc/todolist",
+		"/D/project/bonsa/bonsa/www/index.html",
+		"/D/project/bonsa/bonsa/www/lib/ionic/js/ionic.bundle.js",
+		"/D/project/bonsa/bonsa/www/lib/ionic/js/angular/angular.js",
+		"/D/project/bonsa/bonsa/www/js/services.js",
+		"/D/project/bonsa/bonsa/www/templates/login.html",
+		"/D/project/bonsa/bonsa/www/js/controllers.js",
+		"/D/project/bonsa/bonsa/www/js/chat.js",
+		"/D/project/bonsa/bonsa/www/js/app.js",
 		"/C/project/bonbang/workspace/myApp/node_modules/request/node_modules/hawk/test/message.js",
 		"/C/project/bonbang/workspace/myApp/node_modules/gulp-util/lib/isNull.js",
 		"/C/project/bonbang/workspace/myApp/www/index.html",
@@ -480,27 +459,11 @@
 		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/views/main/content/content.calculator.view.js",
 		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/content/calculator.breadcums.view.js",
 		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/header.branding.region.view.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/common/header/header.branding.region.html",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/header.upper.region.view.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/common/header/header-upper-region.html",
-		"/C/project/p2c/workspace/p2c/node_modules/ejs/History.md",
-		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/router.js",
-		"/C/project/p2c/workspace/p2c/api/services/paperkindsService",
-		"/C/project/p2c/workspace/p2c/views/home/index.ejs",
-		"/C/project/p2c/workspace/p2c/node_modules/ejs/index.js",
-		"/C/project/p2c/workspace/p2c/config/locales/en.json",
-		"/C/project/p2c/workspace/p2c/node_modules/excel-parser/excelParser.js",
-		"/C/project/p2c/workspace/p2c/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js",
-		"/C/project/p2c/workspace/p2c/node_modules/excel-parser/node_modules/temp/node_modules/rimraf/test/test-sync.js",
-		"/C/project/p2c/workspace/p2c/node_modules/grunt/lib/grunt/config.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/main/content/book_kind_choice_form/step2.html",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/order/form.fragment.view.js",
-		"/C/project/p2c/workspace/p2c/assets/js/app/views/order/form.view.js",
-		"/C/project/p2c/workspace/p2c/views/layout_old.ejs"
+		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/common/header/header.branding.region.html"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -526,6 +489,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"promisifyAll",
+			"1417508715027",
+			"writeToFile",
+			"insertRoomInfo",
+			"insertRoomInfo\n",
+			"roomInfo",
 			"hasSession",
 			"findRoomById",
 			"rooms",
@@ -647,13 +616,7 @@
 			"this.templateName",
 			"templateName",
 			"}\"",
-			"${",
-			"book_quantity",
-			"',",
-			"            <li class=\"\">\n              <a href=\"#tab4\" data-toggle=\"tab\">\n                99.9% Uptime \n                <small>Rhoncus adipiscing</small>\n                <i class=\"fa fa-angle-right\"></i>\n              </a>\n            </li>",
-			"templateName",
-			"controls.png",
-			"control.png"
+			"${"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -673,195 +636,11 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "doc/todolist",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								260,
-								260
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								394,
-								394
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "www/lib/ionic/js/ionic.bundle.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1526173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								862,
-								862
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2580.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "www/lib/ionic/js/angular/angular.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 782956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9419,
-								9419
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/js/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4829,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2106,
-								2106
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "www/templates/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "www/js/chat.js",
 					"semi_transient": false,
 					"settings":
@@ -873,8 +652,8 @@
 						"selection":
 						[
 							[
-								2185,
-								2185
+								941,
+								941
 							]
 						],
 						"settings":
@@ -883,304 +662,6 @@
 							"history_list_is_closing": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 40.0,
-						"translation.y": 1860.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "www/templates/messages.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								980,
-								980
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 2,
-							"history_list_is_closing": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "www/templates/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								793,
-								793
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "www/js/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								294,
-								294
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 0,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "www/templates/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								332,
-								332
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "www/templates/messages.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1282,
-								1282
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 100.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "www/js/chat.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4730,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								359,
-								359
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "www/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1136,
-								1136
-							]
-						],
-						"settings":
-						{
-							"check_times": 0,
-							"clone_numbers": 1,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 11,
-					"file": "www/js/rooms.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								389,
-								389
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 0,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 12.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "www/templates/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								413,
-								413
-							]
-						],
-						"settings":
-						{
-							"clone_numbers": 1,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1192,69 +673,158 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "www/templates/messages.html",
+					"buffer": 1,
+					"file": "programReader.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1282,
+						"buffer_size": 2228,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								723,
-								723
+								1843,
+								1843
 							]
 						],
 						"settings":
 						{
-							"clone_numbers": 2,
-							"history_list_is_closing": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1014.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "www/templates/rooms.html",
+					"buffer": 2,
+					"file": "0.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 490,
+						"buffer_size": 81035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								65496,
+								65496
 							]
 						],
 						"settings":
 						{
-							"clone_numbers": 0,
-							"history_list_is_closing": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "1.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22576,
+								22576
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sample.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17801,
+								17801
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "channelCollector.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1288,7 +858,7 @@
 		"cols":
 		[
 			0.0,
-			0.620975222953,
+			0.490143369176,
 			1.0
 		],
 		"rows":
@@ -1306,6 +876,7 @@
 	{
 		"height": 130.0
 	},
+	"pinned_build_system": "",
 	"project": "sublime_project.sublime-project",
 	"replace":
 	{
@@ -1315,8 +886,17 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pro",
+				"programReader.js"
+			],
+			[
+				"chan",
+				"channelCollector.js"
+			],
 			[
 				"chat.js",
 				"www\\js\\chat.js"
@@ -1783,6 +1363,7 @@
 	"select_project":
 	{
 		"height": 625.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1791,12 +1372,13 @@
 	"select_symbol":
 	{
 		"height": 45.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 787.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
