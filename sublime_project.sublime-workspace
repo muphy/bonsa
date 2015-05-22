@@ -685,8 +685,8 @@
 						"selection":
 						[
 							[
-								1843,
-								1843
+								2079,
+								2079
 							]
 						],
 						"settings":
@@ -695,10 +695,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1014.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -824,7 +824,7 @@
 						"translation.y": 390.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1378,7 +1378,7 @@
 		],
 		"width": 787.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
