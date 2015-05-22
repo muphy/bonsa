@@ -1,3 +1,4 @@
+var util = require('util');
 module.exports = {
     setUp: function (callback) {
     	this.json = {  
@@ -28,7 +29,20 @@ module.exports = {
         callback();
     },
     test1: function (test) {
-        test.equals(false,this.json.live, 'live is false');
+    	var beginTime = util.format('%sT%s', this.json.beginDate, this.json.beginTime);
+		var endTime = util.format('%sT%s', this.json.beginDate, this.json.endTime);
+		beginTime = Date.parse(beginTime);
+		endTime = Date.parse(endTime);
+		if(beginTime > endTime) {
+			endTime = endTime + 1000*60*60*24;
+		}
+		console.log(beginTime);
+		console.log(endTime);
+		var beginDate = new Date(beginTime);
+		var endDate = new Date(endTime);
+		console.log(endDate.getDate());
+		test.equals(endDate.getDate(),'21','today!!!')
+        // test.equals(false,this.json.live, 'live is false');
         test.done();
     }
 };
