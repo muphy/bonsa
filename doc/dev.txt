@@ -1,2 +1,9 @@
 2.install plugin 
   - ionic plugin add org.apache.cordova.inappbrowser
+
+
+3.defendancy
+  1.install Nodeunit
+    - url
+      - https://github.com/caolan/nodeunit
+    - npm install nodeunit -g

@@ -1,0 +1,8 @@
+1.guide
+  - http://backlogtool.com/git-guide/kr/
+
+2. branch 로 가져오기
+   git clone https://github.com/muphy/bonsa.git
+   git branch material01
+   git pull
+    => material01 의 소스를 가져온다.
