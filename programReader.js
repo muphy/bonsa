@@ -16,7 +16,7 @@ function Today() {
         mm = '0' + mm
     }
     this.date = year + mm + dd;
-    this.hour = today.getHours()+1;
+    this.hour = today.getHours() + 1;
 }
 
 function URLs() {
@@ -38,7 +38,7 @@ function process() {
         }
     };
     Promise.map(URLs(), function(URL) {
-    	console.log(URL);
+        console.log(URL);
         current = current.then(function() {
             return needle.getAsync(URL, options);
         });
@@ -48,10 +48,12 @@ function process() {
         // console.log(b);
         var strSchedule = b[0].replace('PROGRAM_SCHEDULES=', '').replace(';', '');
         // console.log(strSchedule);
+        var result = JSON.parse(strSchedule);
         return strSchedule;
     }).then(function(results) {
-        _.each(results, function(result,i) {
-            fs.writeFile("./"+i+".json", result, function(err) {
+        _.each(results, function(result) {
+            var channelList = result.channelList
+            fs.writeFile("./" + i + ".json", result, function(err) {
                 if (err) {
                     return console.log(err);
                 }
@@ -66,4 +68,18 @@ function process() {
     });
 }
 
-process();
+module.exports.convertProgramDate = function(program) {
+    var beginTime = util.format('%s %s', program.beginDate, program.beginTime);
+    var endTime = util.format('%s %s', program.beginDate, program.endTime);
+    beginTime = Date.parse(beginTime);
+    endTime = Date.parse(endTime);
+    if (beginTime > endTime) {
+        endTime = endTime + 1000 * 60 * 60 * 24;
+    }
+    var convertedBeginDate = new Date(beginTime);
+    var convertedEndDate = new Date(endTime);
+    program.beginTime = convertedBeginDate;
+    program.endTime = convertedEndDate;
+	console.log(program);
+	return program;
+}
