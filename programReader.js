@@ -78,6 +78,7 @@ function process() {
         return myProgramList;
     }).then(function(results) {
         // console.log(results);
+        //TODO 
         console.log('All Needle requests saved');
     }).catch(function(e) {
         console.log(e);
