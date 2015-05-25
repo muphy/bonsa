@@ -1,3 +1,5 @@
+//https://github.com/caolan/nodeunit
+
 var util = require('util');
 var programReader = require('../programReader');
 module.exports = {
@@ -29,11 +31,19 @@ module.exports = {
         // clean up
         callback();
     },
-    
-    test1: function(test) {
+    test_process: function(test) {
+    	
+    	programReader.process();
+    	test.done();
+    },
+    test_convertTime: function(test) {
         var program = programReader.convertProgramDate(this.json);
-        // console.log(program.endTime);
-        // console.log(program);
+		test.equals(program.beginTime, 1432132800000);
+		test.equals(program.endTime, 1432137000000);
         test.done();
+    },
+    test_firebase: function(test) {
+		var fb = programReader.getFireBaseToken();
+		test.done();
     }
 };
