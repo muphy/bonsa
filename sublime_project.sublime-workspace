@@ -107,30 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "doc/git.txt",
-			"settings":
-			{
-				"buffer_size": 181,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test/test1.js",
-			"settings":
-			{
-				"buffer_size": 1301,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "programReader.js",
-			"settings":
-			{
-				"buffer_size": 2138,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -211,10 +187,12 @@
 	],
 	"file_history":
 	[
+		"/D/project/bonsa/git/bonsa/programReader.js",
+		"/D/project/bonsa/git/bonsa/doc/git.txt",
+		"/D/project/bonsa/git/bonsa/test/test1.js",
 		"/D/project/bonsa/git/bonsa/test_batch.js",
 		"/D/project/bonsa/git/bonsa/doc/dev.txt",
 		"/D/project/bonsa/git/bonsa/0.json",
-		"/D/project/bonsa/git/bonsa/test/test1.js",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/nodeunit.sublime-build",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/nodeunit.cmd",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
@@ -336,9 +314,7 @@
 		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/coupon_addition.js",
 		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/payRelation.js",
 		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/backbone.validation.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/util/accordion.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/option.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/main/motion.js"
+		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/util/accordion.js"
 	],
 	"find":
 	{
@@ -514,96 +490,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "doc/git.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 181,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 112.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test/test1.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "programReader.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1234,
-								1234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
