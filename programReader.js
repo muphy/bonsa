@@ -22,69 +22,78 @@ function today() {
 
 function URLs() {
     var PROGRAME_BASE_URL = 'http://tvguide.naver.com/program/multiChannel.nhn?';
-    var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s&hour=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s'];
+    var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s'];
     var URLs = _.map(urlFormatterList, function(urlFormat) {
         return util.format(urlFormat, today());
     });
+    console.log(URLs);
     return URLs;
 }
 
 function process() {
-    Promise.promisifyAll(needle);
-    var current = Promise.resolve();
-    var options = {
-        headers: {
-            "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
-        }
-    };
-    Promise.map(URLs(), function(URL) {
-        console.log(URL);
-        current = current.then(function() {
-            return needle.getAsync(URL, options);
-        });
-        return current;
-    }).map(function(responseAndBody) {
-        var b = responseAndBody[1].match(/PROGRAM_SCHEDULES=[\s\S]*?;/gm);
-        var strSchedule = b[0].replace('PROGRAM_SCHEDULES=', '').replace(';', '');
-        var result = JSON.parse(strSchedule);
-        return result;
-    }).then(function(results) {
-        var myChannelList = _.values(results);
-        var myProgramList = [];
+        Promise.promisifyAll(needle);
+        var current = Promise.resolve();
+        var options = {
+            headers: {
+                "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+            }
+        };
+        Promise.map(URLs(), function(URL) {
+            // console.log(URL);
+            current = current.then(function() {
+                return needle.getAsync(URL, options);
+            });
+            return current;
+        }).map(function(responseAndBody) {
+            var b = responseAndBody[1].match(/PROGRAM_SCHEDULES=[\s\S]*?;/gm);
+            var strSchedule = b[0].replace('PROGRAM_SCHEDULES=', '').replace(';', '');
+            var result = JSON.parse(strSchedule);
+            return result;
+        }).then(function(results) {
+            var myChannelList = _.values(results);
+            var myProgramList = [];
 
-        _.each(myChannelList, function(channel, i) {
-            var channelList = channel.channelList;
-            _.each(channelList, function(channel) {
-                var channelInfo = {
-                    broadcastName: channel.broadcastName,
-                    channelName: channel.channelName
-                };
-                var programList = channel.programList;
-                _.each(programList, function(program) {
-                    var program = convertProgramDate(program);
-                    program = _.extend(channelInfo, program);
-                    myProgramList.push(program);
+            _.each(myChannelList, function(channel, i) {
+                var channelList = channel.channelList;
+                _.each(channelList, function(channel) {
+                    var channelInfo = {
+                        broadcastName: channel.broadcastName,
+                        channelName: channel.channelName
+                    };
+                    var programList = channel.programList;
+                    _.each(programList, function(program) {
+                        var program = convertProgramDate(program);
+                        program = _.extend(program, channelInfo);
+                        myProgramList.push(program);
+                    });
                 });
+
+            });
+            // needle.getAsync(url).then(JSON.parse).then(function(val) {
+            //     console.log(val.success);
+            // });
+            return myProgramList;
+        }).then(function(results) {
+            var list = _.values(results);
+            list = _.uniq(list, function(e, i) {
+                return e.scheduleId;
+            });
+            var currentTime = Date.now();
+            list = _.pick(list, function(e, i) {
+                return currentTime >= e.beginTime && currentTime <= e.endTime;
+            });
+            fs.writeFile("result.json", JSON.stringify(list), function(err) {
+                if (err) {
+                    return console.log(err);
+                }
+                console.log("The file was saved!");
             });
 
+        }).catch(function(e) {
+            console.log(e);
         });
-        // console.log(myChannelList);
-        fs.writeFile("result.json", JSON.stringify(myProgramList), function(err) {
-            if (err) {
-                return console.log(err);
-            }
-            console.log("The file was saved!");
-        });
-        return myProgramList;
-    }).then(function(results) {
-        // console.log(results);
-        //TODO 
-        console.log('All Needle requests saved');
-    }).catch(function(e) {
-        console.log(e);
-    });
-}
-process();
+    }
+    // process();
 module.exports.process = function() {
     process();
 }
