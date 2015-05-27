@@ -1,4 +1,4 @@
-*.sublime-*
+*.sublime*
 *.json
 # Logs
 logs
