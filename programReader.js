@@ -23,7 +23,8 @@ function today() {
 function URLs() {
     var PROGRAME_BASE_URL = 'http://tvguide.naver.com/program/multiChannel.nhn?';
     var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s',
-    'http://tvguide.naver.com/program/multiChannel.nhn?broadcastType=200&channelGroup=13&date=%s'];
+        PROGRAME_BASE_URL + 'broadcastType=200&channelGroup=13&date=%s'
+    ];
     var URLs = _.map(urlFormatterList, function(urlFormat) {
         return util.format(urlFormat, today());
     });
@@ -33,6 +34,7 @@ function URLs() {
 
 function process() {
         Promise.promisifyAll(needle);
+
         var current = Promise.resolve();
         var options = {
             headers: {
@@ -79,6 +81,10 @@ function process() {
             list = _.uniq(list, function(e, i) {
                 return e.scheduleId;
             });
+            _.each(list, function(e) {
+                saveProgram(e);
+            });
+            // removeProgram();
             var currentTime = Date.now();
             list = _.pick(list, function(e, i) {
                 return currentTime >= e.beginTime && currentTime <= e.endTime;
@@ -89,7 +95,6 @@ function process() {
                 }
                 console.log("The file was saved!");
             });
-
         }).catch(function(e) {
             console.log(e);
         });
@@ -97,6 +102,17 @@ function process() {
     // process();
 module.exports.process = function() {
     process();
+}
+
+var programsRef = new Firebase("https://sizzling-heat-271.firebaseio.com/programs");
+
+function saveProgram(data) {
+    programsRef.push(data);
+}
+
+function removeProgram() {
+    var ref = new Firebase("https://sizzling-heat-271.firebaseio.com/programs");
+    ref.remove();
 }
 
 function writeFile() {
