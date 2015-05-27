@@ -4,118 +4,282 @@
 		"selected_items":
 		[
 			[
-				"get",
-				"getDate()	Date"
+				"ch",
+				"channelList"
+			],
+			[
+				"pro",
+				"program"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"en",
+				"endDate"
 			],
 			[
 				"be",
 				"beginTime"
 			],
 			[
-				"b",
-				"beginDate"
-			],
-			[
-				"selecto",
-				"selectedLocation"
-			],
-			[
-				"close",
-				"closeSelectedMap"
-			],
-			[
-				"m5",
-				"m5req"
-			],
-			[
-				"set",
-				"setCount"
-			],
-			[
-				"user",
-				"userId"
-			],
-			[
-				"em",
-				"empty"
-			],
-			[
-				"p",
-				"paramList"
-			],
-			[
-				"is",
-				"isJoinStep"
-			],
-			[
-				"er",
-				"errorMsg"
-			],
-			[
-				"lo",
-				"log"
-			],
-			[
-				"ini",
-				"initScroll"
+				"e",
+				"equals"
 			],
 			[
 				"cons",
 				"console"
 			],
 			[
-				"de",
-				"detailError"
+				"wri",
+				"writeToFile"
 			],
 			[
-				"mode",
-				"models"
+				"ur",
+				"urlFormatterList"
+			],
+			[
+				"req",
+				"requestJSON"
+			],
+			[
+				"h",
+				"hasSession"
+			],
+			[
+				"use",
+				"userIdKeyName"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"data",
+				"datasnapshop"
+			],
+			[
+				"ro",
+				"roomInfo"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"cast",
+				"castName"
+			],
+			[
+				"th",
+				"thumbnailImgUrl"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"$as",
+				"$asObject"
+			],
+			[
+				"de",
+				"decreseStep"
+			],
+			[
+				"go",
+				"goToPrev"
+			],
+			[
+				"c",
+				"calculator_breadcums_view"
+			],
+			[
+				"bu",
+				"buildSteps"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"render",
+				"renderBook2"
+			],
+			[
+				"rend",
+				"renderPiece"
+			],
+			[
+				"boo",
+				"book_kind_choice_form_view"
+			],
+			[
+				"bo",
+				"book_kind_choice_form_view"
 			],
 			[
 				"fun",
 				"function"
 			],
 			[
-				"in",
-				"intent"
+				"mo",
+				"moveLeft"
 			],
 			[
-				"fac",
-				"facebook-login"
+				"lo",
+				"loss_back"
 			],
 			[
-				"tri",
-				"triggerBottomEvent"
+				"l",
+				"loss_front"
 			],
 			[
-				"cu",
-				"currentView"
+				"do",
+				"dosoo_front"
 			],
 			[
-				"facebook",
-				"facebookLogin"
+				"po",
+				"postcard_view"
 			],
 			[
-				"form",
-				"formData"
+				"r",
+				"render"
 			],
 			[
-				"pr",
-				"preventDefault"
+				"pa",
+				"paper_inside_view"
+			],
+			[
+				"j",
+				"jeolsuCollection"
+			],
+			[
+				"F",
+				"FormFragment"
+			],
+			[
+				"te",
+				"templateName"
+			],
+			[
+				"book_f",
+				"book_fold"
+			],
+			[
+				"paper_cover_book",
+				"paper_cover_book_page"
+			],
+			[
+				"paper_cover_boo",
+				"paper_cover_book_jeolsu"
+			],
+			[
+				"don",
+				"donPan_filmNum"
+			],
+			[
+				"hon",
+				"hongPan_filmNum"
+			],
+			[
+				"pap",
+				"paper_cover_logic"
+			],
+			[
+				"get",
+				"getJeolsuCollection"
+			],
+			[
+				"jeo",
+				"jeolsuList"
+			],
+			[
+				"set",
+				"setJeolsuCollection"
+			],
+			[
+				"paper_co",
+				"paper_cover"
+			],
+			[
+				"je",
+				"jeolsuList"
+			],
+			[
+				"p",
+				"paperkind"
+			],
+			[
+				"app",
+				"appendPaperkind"
+			],
+			[
+				"b",
+				"Backbone"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "www/js/chat.js",
+			"settings":
+			{
+				"buffer_size": 4730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "programReader.js",
+			"settings":
+			{
+				"buffer_size": 5049,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "result.json",
+			"settings":
+			{
+				"buffer_size": 155730,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "doc/dev.txt",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/test1.js",
+			"settings":
+			{
+				"buffer_size": 1337,
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Makefile/Make.sublime-build",
 	"build_system_choices":
 	[
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 490.0,
 		"last_filter": "inst",
 		"selected_items":
 		[
@@ -128,46 +292,37 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"packag",
-				"Package Control: Remove Package"
-			],
-			[
-				"instl",
-				"Package Control: Install Package"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
 			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 458.0
+		"width": 648.0
 	},
 	"console":
 	{
-		"height": 276.0,
+		"height": 126.0,
 		"history":
 		[
-			"exec",
-			"a+b",
-			"b=2",
-			"a = 1",
-			"build",
-			"'",
-			"exit",
-			"quit",
-			"hi",
-			"hh",
 			"dir",
-			"ls",
-			"sdf",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"gulp",
+			"dir",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -182,285 +337,297 @@
 	},
 	"expanded_folders":
 	[
-		"/D/project/bonsa/git/bonsa",
-		"/D/project/bonsa/git/bonsa/doc"
+		"/D/project/bonsa/bonsa",
+		"/D/project/bonsa/bonsa/doc",
+		"/D/project/bonsa/bonsa/test"
 	],
 	"file_history":
 	[
-		"/D/project/bonsa/git/bonsa/programReader.js",
-		"/D/project/bonsa/git/bonsa/doc/git.txt",
-		"/D/project/bonsa/git/bonsa/test/test1.js",
-		"/D/project/bonsa/git/bonsa/test_batch.js",
-		"/D/project/bonsa/git/bonsa/doc/dev.txt",
-		"/D/project/bonsa/git/bonsa/0.json",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/nodeunit.sublime-build",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/nodeunit.cmd",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
-		"/C/Users/muphy/AppData/Roaming/npm/nodeunit.cmd",
-		"/C/Users/muphy/AppData/Roaming/npm/nodeunit",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/project/china/workspace/sssns_china/WebContent/resources/site/js/model.js",
-		"/C/project/china/workspace/sssns_china/WebContent/resources/site/js/v/posts.view.js",
-		"/C/project/china/workspace/sssns_china/WebContent/resources/site/js/v/writeFormComm.js",
+		"/D/project/bonsa/bonsa/0.json",
+		"/D/project/bonsa/bonsa/1.json",
+		"/D/project/bonsa/bonsa/sublime_project.sublime-project",
+		"/D/project/bonsa/bonsa/channelCollector.js",
+		"/D/project/bonsa/bonsa/sample.json",
+		"/D/project/bonsa/bonsa/programReader.js",
+		"/D/project/bonsa/bonsa/programReader.sj",
+		"/D/project/bonsa/bonsa/tmp.txt",
+		"/D/project/bonsa/bonsa/www/templates/menu.html",
+		"/D/project/bonsa/bonsa/www/js/rooms.js",
+		"/D/project/bonsa/bonsa/www/templates/messages.html",
+		"/D/project/bonsa/bonsa/www/templates/rooms.html",
+		"/D/project/bonsa/bonsa/doc/todolist",
+		"/D/project/bonsa/bonsa/www/index.html",
+		"/D/project/bonsa/bonsa/www/lib/ionic/js/ionic.bundle.js",
+		"/D/project/bonsa/bonsa/www/lib/ionic/js/angular/angular.js",
+		"/D/project/bonsa/bonsa/www/js/services.js",
+		"/D/project/bonsa/bonsa/www/templates/login.html",
+		"/D/project/bonsa/bonsa/www/js/controllers.js",
+		"/D/project/bonsa/bonsa/www/js/chat.js",
+		"/D/project/bonsa/bonsa/www/js/app.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/request/node_modules/hawk/test/message.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-util/lib/isNull.js",
+		"/C/project/bonbang/workspace/myApp/www/index.html",
+		"/C/project/bonbang/workspace/myApp/www/css/style.css",
+		"/C/project/bonbang/workspace/myApp/www/js/rooms.js",
+		"/C/project/bonbang/workspace/myApp/scss/ionic.app.scss",
+		"/C/project/bonbang/workspace/myApp/www/templates/messages.html",
+		"/C/project/bonbang/workspace/myApp/www/templates/menu.html",
+		"/C/project/bonbang/workspace/myApp/www/js/controllers.js",
+		"/C/project/bonbang/workspace/myApp/www/js/chat.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Documents/Attributes.html",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/handlebars/coverage/lcov-report/dist/cjs/handlebars/compiler/ast.js.html",
+		"/C/project/bonbang/workspace/myApp/www/js/app.js",
+		"/C/project/bonbang/workspace/myApp/channelCollector.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/cardinal/test/cardinal-highlight-json.js",
+		"/C/project/bonbang/workspace/myApp/www/templates/rooms.html",
+		"/C/project/bonbang/workspace/myApp/www/css/ionic.app.css",
+		"/C/project/bonbang/workspace/myApp/www/.gitignore",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/retry/lib/retry_operation.js",
+		"/C/project/bonbang/workspace/myApp/hooks/README.md",
+		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/start-emulator",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp/node_modules/semver/semver.min.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/observeonobserver.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/src/string/escapeRegExp.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-sass/node_modules/node-sass/test/sass-spec/spec/todo/bourbon/lib/css3/_user-select.scss",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp/node_modules/tildify/node_modules/.bin/user-home",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mkdirp/test/umask_sync.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/lib/utils.js",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/date/timezoneOffset.js",
+		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/appinfo.js",
+		"/C/project/bonbang/workspace/myApp/www/js/services.js",
+		"/C/project/bonbang/workspace/myApp/www/templates/browse.html",
+		"/C/project/bonbang/workspace/myApp/gulpfile.js",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/scss/_util.scss",
+		"/C/project/bonbang/workspace/myApp/ionic.project",
+		"/C/project/bonbang/workspace/myApp/node_modules/bower/node_modules/mout/lang/isObject.js",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/style.css",
+		"/C/project/bonbang/workspace/myApp/bin/gulpfile.js",
+		"/C/project/bonbang/workspace/myApp/www/lib/ionic/css/ionic.css",
+		"/C/project/bonbang/workspace/myApp/start.bat",
+		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/services.js",
+		"/D/project/mcm/test/CORS_test.html",
+		"/C/project/bonbang/workspace/myApp/doc/dev.txt",
+		"/C/project/bonbang/workspace/myApp/www/templates/login.html",
+		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/controllers.js",
+		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/log",
+		"/C/project/bonbang/workspace/myApp/platforms/android/local.properties",
+		"/C/project/bonbang/workspace/myApp/node_modules/firebase-token-generator/LICENSE",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/Makefile",
+		"/C/project/bonbang/workspace/myApp/firebase.json",
+		"/C/project/bonbang/workspace/myApp/platforms/android/assets/www/js/app.js",
+		"/C/project/bonbang/workspace/myApp/.project",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Events/11-script_in_script.json",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/connect/node_modules/serve-index/public/directory.html",
+		"/C/project/bonbang/workspace/myApp/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js",
+		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/list-emulator-images",
+		"/C/project/bonbang/workspace/myApp/node_modules/cheerio/node_modules/htmlparser2/test/Events/23-legacy_entity_fail.json",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
 		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/C/project/china/workspace/sssns_china/WebContent/resources/site/js/v/sample.js",
-		"/D/project/bonsa/client/bonsa/channelCollector.js",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/Terminality/Terminality.sublime-settings",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/Terminality/Default (Windows).sublime-keymap",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/Terminal in Packages/terminalinpackages.sublime-settings",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/TerminalinPackages/Default.sublime-keymap",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/TerminalinPackages/Default.sublime-keymap",
-		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/terminalinpackages.sublime-settings",
-		"/D/project/hancube/app/youboo/config.xml",
-		"/D/project/hancube/app/youboo/www/js/index.js",
-		"/D/project/hancube/app/image/Launcher-icon_MDPI.png",
-		"/D/project/hancube/app/image/Launcher-icon_HDPI.png",
-		"/D/project/hancube/app/image/Launcher-icon_XHDPI.png",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/mypage/coupon_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/event/view_event_content.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/configurations/mobile.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/common/ajax.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/join/coupon_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/common/native_util.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/prod.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/router/router.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/mypage/mypage.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/mypage/announce_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/collections/mypage/coupon.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/config.xml",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/carousel.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/login.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/join/facebook_login_status.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/login.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/setting/setting.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/configurations/loader.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/common/page_model.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/company/shopoffline_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/util/error_catcher.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/mypage/mypage.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/setting/setting.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/join/join-step4.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/join/join-step3.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/setting/setting.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/loginResult.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/loginResult.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/facebook_login.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/login.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/join/join-step1.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/join-step3.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/join/join-step4.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/join/join-step3.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/join/join-step1.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/sample_template.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/css/styles.css",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/plugins/facebookConnectPlugin.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/css/essential.css",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/shop/search.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/search.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/mypage/search_info.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/cscenter/select_share.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/shop/search.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/second.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/second.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/axicon/selection.json",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/index.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/company/shopoffline.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/common/util.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/util/logger.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/payment4.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/main/category_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/plugins/xpay_crossplatform.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/mypage/my_qna_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/goods/review_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/company/shopoffline.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/mypage/my_qna_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/sample/confirm-booking.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/slick/config.rb",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/configurations/mobile_old.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/tutorial/search_tutorial.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/cart.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/mypage/mypage.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/shop/payment4.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/shop/payment.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/mypage/calendarTemplate.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/view.manager.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/cscenter/ecommerce_wrap.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/cscenter/ecommerce_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/mypage/notice_list.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/logger.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/common/native_util.zip",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/configurations/touch-emulator.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/company/companyinfo.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/company/companyinfo.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/company/companyinfo.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/cscenter/company_info.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/tutorial/main_tutorial.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/popup/receiveShop.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/receiveShop.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/company/shopinfo.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/company/shopinfo.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/popup/digitalcoupon_list.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/deliveryAddress.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/prod_releated_wrap.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/prod_releated.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/popup/share.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/share.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/shop/prod_detail.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/templates/shop/prod.html",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/shop/prod_review_wrap.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/models/shop/prod.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/coupon_addition.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/app/views/popup/payRelation.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/backbone.validation.js",
-		"/D/project/mcm/newclient/workspace/MCMHybridApp/www/js/libs/util/accordion.js"
+		"/C/project/bonbang/workspace/myApp/plugins/org.apache.cordova.console/CONTRIBUTING.md",
+		"/C/project/bonbang/workspace/myApp/config.xml",
+		"/C/project/bonbang/workspace/myApp/platforms/android/platform_www/cordova.js",
+		"/C/project/bonbang/workspace/myApp/hooks/after_prepare/010_add_platform_class.js",
+		"/C/project/bonbang/workspace/myApp/plugins/android.json",
+		"/D/project/ionic/myApp/www/js/controllers.js",
+		"/D/project/ionic/myApp/www/js/app.js",
+		"/D/project/ionic/src/myApp/www/js/app.js",
+		"/D/project/ionic/src/myApp/www/js/controllers.js",
+		"/D/project/ionic/myApp/gulpfile.js",
+		"/D/project/ionic/src/myApp/gulpfile.js",
+		"/D/vm/vagrant_meteor/project/first/shared/leaderboard/readme.txt",
+		"/D/project/study/socially/index.html",
+		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/muphy/AppData/Roaming/Sublime Text 3/Packages/User/cmd.py",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp-connect/node_modules/connect/node_modules/multiparty/test/standalone/test-content-transfer-encoding.js",
+		"/C/project/bonbang/workspace/myApp/platforms/android/cordova/lib/install-device",
+		"/C/project/bonbang/workspace/myApp/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
+		"/C/project/bonbang/ref/Ionic-Chat/package.json",
+		"/D/download/ionic-contrib-frosted-glass-master/www/js/controllers.js",
+		"/D/download/ionic-contrib-frosted-glass-master/www/js/app.js",
+		"/D/download/ionic-contrib-frosted-glass-master/www/index.html",
+		"/C/project/p2c/workspace/p2c/assets/js/app/models/calc/calc.paper.model.js",
+		"/C/project/p2c/workspace/p2c/node_modules/grunt/node_modules/minimatch/test/caching.js",
+		"/C/project/p2c/workspace/p2c/config/controllers.js",
+		"/C/project/p2c/workspace/p2c/node_modules/sails/node_modules/winston/examples/custom-levels.js",
+		"/C/project/p2c/workspace/p2c/node_modules/sails/node_modules/grunt-contrib-less/node_modules/less/test/css/debug/linenumbers-all.css",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/order/step.view.js",
+		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/order/step.asheet.tpl",
+		"/C/project/p2c/workspace/p2c/assets/js/lib/slider.js",
+		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/main/book_kind_choice_form/step2.html",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/content/book_kind_choice_form/step2.view.js",
+		"/C/project/p2c/workspace/p2c/node_modules/sails/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/content.view.js",
+		"/C/project/p2c/workspace/p2c/node_modules/sails/node_modules/express/node_modules/connect/node_modules/multiparty/test/standalone/test-issue-4.js",
+		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/views/main/content/book_kind_choice_form/book.kind.choice.form.view.js",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/content/book_kind_choice_form/book.kind.choice.form.view.js",
+		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/views/main/book_kind_choice_form/book.kind.choice.form.view.js",
+		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/tpl/main/content/book_kind_choice_form/book_kind_choice_form.html",
+		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/main/content/book_kind_choice_form/book_kind_choice_form.html",
+		"/C/project/p2c/workspace/p2c/.tmp/public/js/app/tpl/main/book_kind_choice_form/book_kind_choice_form.html",
+		"/C/project/p2c/workspace/p2c/assets/js/app/tpl/main/book_kind_choice_form/book_kind_choice_form.html",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/body.view.js",
+		"/C/project/p2c/workspace/p2c/assets/js/app/back.router",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/book_kind_choice_form/book.kind.choice.form.view.js",
+		"/C/project/p2c/workspace/p2c/views/layout.ejs",
+		"/C/project/p2c/workspace/p2c/assets/js/app/router.js",
+		"/C/project/p2c/workspace/p2c/assets/js/app/views/main/content/content.calculator.view.js"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 185.0,
 		"where_history":
 		[
+			"*,C:\\project\\bonbang\\workspace\\myApp\\www",
+			"*.js,C:\\project\\bonbang\\workspace\\myApp\\www\\js",
+			"*.js,<open folders>,<open files>,C:\\project\\bonbang\\workspace\\myApp\\www\\js",
+			"*.js,<open folders>,<open files>",
+			"*.js,<open folders>",
+			"*.js",
+			"",
+			"<open folders>",
+			"",
+			"<open files>",
+			"<open folders>",
 			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"begin",
-			"writeForm",
-			"writePost",
-			"mapOption",
-			"changeSelectedLocation",
-			"writePost",
-			"resetGoogleMap",
-			"writeForm",
-			"mapOption",
-			"selfWriteFormComm",
-			"resetGoogleMap",
-			"writeFormComm",
-			"isInitMap",
-			";\n",
-			"selfWriteFormComm",
-			"googleMapInfo",
-			"writeFormComm",
-			"writePost",
-			"write",
-			"setSelectedLocation",
-			"addSelectedLocation",
-			"');\n",
-			"initialize",
-			"{\n",
-			"App.router",
-			"router/router",
-			"window.App.router",
-			"navigate",
-			"ViewManager",
-			"require",
-			"navigate",
-			"coupon",
-			"renderCoupon",
-			"아닙니다",
-			"기간이",
-			"쿠폰 발급 기간이",
-			"쿠폰 발급 기간",
-			"쿠폰발급",
-			"getDownloadCoupon",
-			"couponDown",
-			"registerDeviceInfo",
-			"self",
-			"tokenHandler",
-			"successHandler",
-			"tokenHandler",
-			"local",
-			"isAndroid",
-			"android",
-			"processAfterFacebookLogin",
-			"window.localStorage.getItem",
-			"ajax",
-			"rapi/facebook",
-			"\n                        /* old method\n                        var data = result.text.split(\",\");\n                        if (data[0] == \"mcm\") { // MCM QR 코드만 처리\n                            if (data[1] == 1) { // 페이지 이동\n                                var url = data[2];\n                                //ex  \n                                // url: shop/prod/100006572\n                                window.App.router.navigate(url, {trigger: true});\n                            } else if (data[1] == 2) { // 이미지 다운로드 후 갤러리 호출\n                                self.imageDownloader(data[2]);\n                            }\n                        } \n                        */",
-			"createConnectionSuccessCB",
-			"createConnection",
-			"processAfterLogin",
-			"didLoginFromFacebook",
-			"        didLoginFromFacebook: function(ctx, connection) {\n            Ajax.post(ctx, 'social/login', connection, ctx.didLoginFromFacebookSuccessCB, ctx.didLoginFromFacebookFailCB);\n        },",
-			"didLoginFromFacebook",
-			"didLoginFromFacebookFailCB",
-			"Ajax",
-			"didLoginFromFacebook",
-			"createConnection",
-			"didLoginFromFacebookSuccessCB",
-			"longi",
-			"The function",
-			"setLocation",
-			"getCurrentPosition",
-			"setLocation",
-			"getSettingInfoResponse",
-			"showNotice",
-			"setLocation",
-			"showNotice",
-			"getSettingInfoResponse",
-			"getSettingInfo",
-			"getSettingInfoResponse",
-			"getSettingInfo",
-			"self.$el.html",
-			"getSettingInfoResponse",
-			"renderLocatioin",
-			"			\n",
-			"renderLocatioin",
+			"console.log",
+			"result",
+			"channelList",
+			"Today",
+			"C632741228",
+			"program",
+			"this.json",
+			"promisifyAll",
+			"1417508715027",
+			"writeToFile",
+			"insertRoomInfo",
+			"insertRoomInfo\n",
+			"roomInfo",
+			"hasSession",
+			"findRoomById",
+			"rooms",
+			"UserService",
+			"$ionicLoading",
+			"myHTML",
+			"onLoginSuccess",
+			"profileImg",
+			"userIdKeyName",
+			"self.userProfile",
+			"profile",
+			".me ",
+			"userId",
+			"$rootScope",
+			"UserService",
+			"self.userProfile",
+			"userProfile",
+			"alert(",
 			"alert",
-			"showNotice",
-			"self.$el.html",
-			"showNotice",
-			"template",
-			"Template",
-			"template",
-			"Template",
-			"template",
-			"Model",
-			"showNotice",
-			"getCurrentPosition",
-			"iosScan",
-			"renderLocatioin",
-			"render",
-			"class=\"off",
-			"class=\"on",
-			"NativeUtil",
-			"위치서비스",
-			"restore",
-			"NativeUtil",
-			"getCurrentPosition",
-			"turnOffFacebook",
-			"disConnectionFailCB",
-			"getCurrentPosition",
-			"touch-emulator.js",
-			"NativeUtil",
-			"stopPropagation",
-			"facebookConnectPlugin.logout",
-			"connect",
-			"getCurrentPosition",
-			"native",
-			"isConnected",
-			"render",
-			"processAfterLogin",
-			"turn",
-			"processAfterLogin",
-			"LGD_KVPMISPAUTOAPPYN",
-			"LGD_KVPMISPAUTOAPPYN ",
-			"Finished load",
-			"isConnected",
-			"autologin",
-			"setting-swich",
-			"페이스북 연동하기",
-			"페이스북",
-			"router.na"
+			"authData",
+			"userProfile",
+			"$light",
+			"messaging-view",
+			".platform-c:not",
+			"class=bar",
+			"bar",
+			"back-button",
+			"현재방",
+			"Back",
+			"messaging-view",
+			"messaging-view ",
+			"message",
+			"other",
+			"userId",
+			"myId",
+			"$localstorage",
+			"onReturn",
+			"returnClose",
+			"return-close",
+			"$stateParams",
+			"inputDown",
+			"returnClose",
+			"$urlRouterProvider",
+			"$timeout",
+			"$ionicModal",
+			"PetService",
+			"provider",
+			"closeLogin",
+			"();\n",
+			"$urlRouterProvider",
+			"AppCtrl",
+			"ng-click=\"login()\"",
+			"Left",
+			"loginData",
+			"$top",
+			"	\n",
+			"console",
+			"\"indent_size\": 4,",
+			"    var list = sync.$asArray(); \n    var newList = list.slice(3,list.length);",
+			"RoomsCtrl",
+			"playlists",
+			"Playlists",
+			"playlists",
+			".single",
+			"single",
+			"PlaylistsCtrl",
+			"{};\n",
+			"PetService",
+			"$ionicFrostedDelegateProvider",
+			"message.content",
+			".log",
+			"buildSteps",
+			".bsSlider",
+			"this.bsSlider",
+			"increseStep",
+			"buildSteps",
+			"this.options",
+			"chooseKindOfBook",
+			"increseStep",
+			"process-pager",
+			"renderPiece",
+			"buildPiece",
+			"this.calculator_breadcums_view",
+			"calculator_breadcums_view",
+			"step-breadcums",
+			"paperkindService",
+			"exists",
+			"data is exists",
+			"express.static",
+			"step-breadcums",
+			"current",
+			"this.options",
+			"build",
+			"up",
+			"Sign Up",
+			"content.calculator.view",
+			"book_kind_choice_form_view",
+			"buildPiece",
+			"tickBxSlider",
+			"this.bsSlider",
+			"            // App.collection.paperkindCollection = new PaperkindCollection();\n            // App.collection.jeolsuCollection = new JeolsuCollection();\n            // App.collection.jeolsuCollection.changeUrl('all');",
+			"setPaperkindsJob",
+			"initFirstPaperkind",
+			"listItem",
+			"'tpl.paper.kind'",
+			"select",
+			"App.collection",
+			"initFirstPaperkind",
+			"            // App.collection.jeolsuCollection.on('sync', this.getJeolsuCollection, this);",
+			"getJeolsuCollection",
+			"appendPaperkind",
+			"App.collection.paperkindCollection",
+			"findPaperPrice",
+			"setJeolsuCollection",
+			"getJeolsuCollection"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -468,18 +635,8 @@
 		"regex": false,
 		"replace_history":
 		[
-			"ssp.mst_category",
-			"'ssp.mst_category'",
-			"mst_category",
-			"title",
-			"'",
-			"",
-			"'",
-			"",
-			"zzz",
-			"",
-			"',",
-			"'."
+			"\"indent_size\": 2,",
+			"',"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -490,18 +647,233 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/js/chat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"clone_numbers": 1,
+							"history_list_is_closing": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "programReader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3323,
+								3323
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "result.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								155730
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 1616868.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "doc/dev.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test/test1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "test/test1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								685,
+								685
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -512,11 +884,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.446885310121,
 			1.0
 		],
 		"rows":
@@ -528,17 +907,17 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 356.0
+		"height": 130.0
 	},
 	"output.find_results":
 	{
-		"height": 156.0
+		"height": 130.0
 	},
-	"pinned_build_system": "Packages/User/nodeunit.sublime-build",
+	"pinned_build_system": "",
 	"project": "sublime_project.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -548,555 +927,519 @@
 		"selected_items":
 		[
 			[
-				"pro",
-				"programReader.js"
+				"giti",
+				".gitignore"
+			],
+			[
+				"dev",
+				"doc\\dev.txt"
+			],
+			[
+				"1.j",
+				"1.json"
 			],
 			[
 				"test",
 				"test\\test1.js"
 			],
 			[
-				"model",
-				"model.js"
+				"pro",
+				"programReader.js"
 			],
 			[
-				"write",
-				"v\\writeFormComm.js"
-			],
-			[
-				"posts",
-				"v\\posts.view.js"
-			],
-			[
-				"",
+				"chan",
 				"channelCollector.js"
 			],
 			[
-				"view",
-				"js\\app\\views\\event\\view_event_content.js"
-			],
-			[
-				"route",
-				"js\\app\\router\\router.js"
-			],
-			[
-				"nati",
-				"js\\app\\common\\native_util.js"
-			],
-			[
-				"mobile",
-				"js\\configurations\\mobile.js"
-			],
-			[
-				"ajax",
-				"js\\app\\common\\ajax.js"
-			],
-			[
-				"prod",
-				"js\\app\\views\\shop\\prod.js"
-			],
-			[
-				"coupon_list",
-				"js\\app\\models\\mypage\\coupon_list.js"
-			],
-			[
-				"login",
-				"js\\app\\models\\login.js"
-			],
-			[
-				"face",
-				"js\\app\\models\\join\\facebook_login_status.js"
-			],
-			[
-				"join-step3",
-				"js\\app\\views\\join\\join-step3.js"
-			],
-			[
-				"step",
-				"js\\app\\views\\join\\join-step4.js"
-			],
-			[
-				"faceb",
-				"js\\app\\models\\join\\facebook_login_status.js"
-			],
-			[
-				"setting.js",
-				"js\\app\\models\\setting\\setting.js"
-			],
-			[
-				"mobi",
-				"js\\configurations\\mobile.js"
-			],
-			[
-				"error",
-				"js\\libs\\util\\error_catcher.js"
-			],
-			[
-				"nativ",
-				"js\\app\\common\\native_util.js"
-			],
-			[
-				"setting",
-				"js\\app\\views\\setting\\setting.js"
-			],
-			[
-				"se",
-				"js\\app\\templates\\setting\\setting.html"
-			],
-			[
-				"config",
-				"js\\configurations\\mobile.js"
-			],
-			[
-				"eror",
-				"js\\libs\\util\\error_catcher.js"
-			],
-			[
-				"confi",
-				"config.xml"
+				"chat.js",
+				"www\\js\\chat.js"
 			],
 			[
 				"index",
-				"index.html"
+				"www\\index.html"
 			],
 			[
-				"mypage",
-				"js\\app\\views\\mypage\\mypage.js"
+				"todo",
+				"doc\\todolist"
 			],
 			[
-				"category_li",
-				"js\\app\\views\\main\\category_list.js"
+				"menu",
+				"www\\templates\\menu.html"
 			],
 			[
-				"category_list",
-				"js\\app\\views\\main\\category_list.js"
+				"ser",
+				"www\\js\\services.js"
 			],
 			[
-				"pyamen",
-				"js\\app\\views\\shop\\payment4.js"
+				"rooms",
+				"www\\js\\rooms.js"
 			],
 			[
-				"payment4.js",
-				"js\\app\\views\\shop\\payment4.js"
+				"message.h",
+				"www\\templates\\messages.html"
 			],
 			[
-				"ro",
-				"js\\app\\router\\router.js"
+				"todoli",
+				"doc\\todolist"
 			],
 			[
-				"search.js",
-				"js\\app\\views\\shop\\search.js"
+				"login",
+				"www\\templates\\login.html"
 			],
 			[
-				"native",
-				"js\\app\\common\\native_util.js"
+				"chat",
+				"www\\js\\chat.js"
 			],
 			[
-				"shopoff",
-				"js\\app\\views\\company\\shopoffline.js"
+				"app",
+				"www\\js\\app.js"
 			],
 			[
-				"faceboo",
-				"js\\app\\models\\join\\facebook_login_status.js"
-			],
-			[
-				"login.js",
-				"js\\app\\views\\login.js"
-			],
-			[
-				"logger",
-				"js\\libs\\util\\logger.js"
-			],
-			[
-				"load",
-				"js\\configurations\\loader.js"
-			],
-			[
-				"x",
-				"js\\libs\\plugins\\xpay_crossplatform.js"
-			],
-			[
-				"util",
-				"js\\app\\common\\util.js"
-			],
-			[
-				"join-step4",
-				"js\\app\\views\\join\\join-step4.js"
-			],
-			[
-				"join.js",
-				"js\\app\\views\\login.js"
-			],
-			[
-				"facebo",
-				"js\\app\\models\\join\\facebook_login_status.js"
-			],
-			[
-				"receive",
-				"js\\app\\views\\popup\\receiveShop.js"
-			],
-			[
-				"prod.",
-				"js\\app\\views\\shop\\prod.js"
-			],
-			[
-				"shopinfo",
-				"js\\app\\views\\company\\shopinfo.js"
-			],
-			[
-				"view.m",
-				"js\\app\\views\\view.manager.js"
-			],
-			[
-				"mypage.html",
-				"js\\app\\templates\\mypage\\mypage.html"
-			],
-			[
-				"mypage.js",
-				"js\\app\\views\\mypage\\mypage.js"
+				"message",
+				"www\\templates\\messages.html"
 			],
 			[
 				"login.h",
-				"js\\app\\templates\\login.html"
+				"www\\templates\\login.html"
 			],
 			[
-				"join-setp",
-				"js\\app\\views\\join\\join-step4.js"
+				"con",
+				"www\\js\\controllers.js"
 			],
 			[
-				"share.js",
-				"js\\app\\views\\popup\\share.js"
+				"service",
+				"www\\js\\services.js"
 			],
 			[
-				"facebook",
-				"js\\app\\models\\join\\facebook_login_status.js"
+				"inde",
+				"www\\index.html"
 			],
 			[
-				"prod_related",
-				"js\\app\\views\\shop\\prod_releated.js"
+				"app.js",
+				"www\\js\\app.js"
 			],
 			[
-				"prod.html",
-				"js\\app\\templates\\shop\\prod.html"
+				"ionic",
+				"scss\\ionic.app.scss"
 			],
 			[
-				"prod_review_wrap",
-				"js\\app\\views\\shop\\prod_review_wrap.js"
+				"ionic.app.s",
+				"scss\\ionic.app.scss"
 			],
 			[
-				"prod_detail",
-				"js\\app\\templates\\shop\\prod_detail.html"
+				"gu",
+				"gulpfile.js"
 			],
 			[
-				"rou",
-				"js\\app\\router\\router.js"
+				"style",
+				"www\\css\\style.css"
+			],
+			[
+				"cont",
+				"www\\js\\controllers.js"
+			],
+			[
+				"contro",
+				"www\\js\\controllers.js"
+			],
+			[
+				"controll",
+				"www\\js\\controllers.js"
+			],
+			[
+				"caclu",
+				"assets\\js\\app\\views\\main\\content\\calculator.breadcums.view.js"
+			],
+			[
+				"step1",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\step1.view.js"
+			],
+			[
+				"book.kind.choice.form.view",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\book.kind.choice.form.view.js"
+			],
+			[
+				"step2.v",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\step2.view.js"
+			],
+			[
+				"content.calculator.view",
+				"assets\\js\\app\\views\\main\\content\\content.calculator.view.js"
+			],
+			[
+				"conte",
+				"assets\\js\\app\\views\\content.view.js"
+			],
+			[
+				"book",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\book.kind.choice.form.view.js"
+			],
+			[
+				"content.ca",
+				"assets\\js\\app\\views\\main\\content\\content.calculator.view.js"
+			],
+			[
+				"header.branding.region.html",
+				"assets\\js\\app\\tpl\\common\\header\\header.branding.region.html"
+			],
+			[
+				"header.branding.region.view",
+				"assets\\js\\app\\views\\main\\header.branding.region.view.js"
+			],
+			[
+				"header-upper-region.html",
+				"assets\\js\\app\\tpl\\common\\header\\header-upper-region.html"
+			],
+			[
+				"header.",
+				"assets\\js\\app\\views\\main\\header.upper.region.view.js"
+			],
+			[
+				"body.vi",
+				"assets\\js\\app\\views\\main\\body.view.js"
+			],
+			[
+				"route",
+				"assets\\js\\app\\router.js"
+			],
+			[
+				"index.ej",
+				"views\\home\\index.ejs"
 			],
 			[
 				"rout",
-				"js\\app\\router\\router.js"
+				"config\\routes.js"
 			],
 			[
-				"my_qna_list",
-				"js\\app\\models\\mypage\\my_qna_list.js"
+				"layout",
+				"views\\layout.ejs"
 			],
 			[
-				"page_mod",
-				"js\\app\\models\\common\\page_model.js"
+				"lay",
+				"views\\layout.ejs"
 			],
 			[
-				"page",
-				"js\\app\\models\\common\\page_model.js"
+				"content",
+				".tmp\\public\\js\\app\\views\\main\\content\\content.calculator.view.js"
+			],
+			[
+				"step2",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\step2.view.js"
+			],
+			[
+				"step1.v",
+				"assets\\js\\app\\views\\main\\content\\book_kind_choice_form\\step1.view.js"
+			],
+			[
+				"header.ht",
+				"assets\\js\\app\\tpl\\common\\header\\header.branding.region.html"
+			],
+			[
+				"body",
+				"assets\\js\\app\\views\\main\\body.view.js"
+			],
+			[
+				"layou",
+				"views\\layout.ejs"
 			],
 			[
 				"main",
-				"js\\app\\views\\main\\main.js"
+				"assets\\js\\main.js"
 			],
 			[
-				"vi",
-				"js\\app\\views\\view.manager.js"
+				"book_kind_choice_form",
+				"assets\\js\\app\\tpl\\main\\book_kind_choice_form\\book_kind_choice_form.html"
 			],
 			[
-				"cart",
-				"js\\app\\views\\shop\\cart.js"
+				"theme",
+				"assets\\styles\\css\\theme-style.css"
 			],
 			[
-				"join-step3.html",
-				"js\\app\\templates\\join\\join-step3.html"
+				"form",
+				"assets\\js\\app\\models\\form.model.js"
 			],
 			[
-				"join-ste",
-				"js\\app\\views\\join\\join-step1.js"
+				"tpl.f",
+				"assets\\js\\app\\tpl\\order\\tpl.order.form.js"
 			],
 			[
-				"join",
-				"js\\app\\templates\\join-step3.html"
+				"form.fragment.view",
+				"assets\\js\\app\\views\\order\\form.fragment.view.js"
 			],
 			[
-				"userinfo_insert",
-				"js\\app\\models\\join\\userinfo_insert.js"
+				"form.v",
+				"assets\\js\\app\\views\\order\\form.view.js"
 			],
 			[
-				"join-step",
-				"js\\app\\views\\join\\join-step4.js"
+				"jquery.bx",
+				"assets\\styles\\plugins\\jquery.bxslider.css"
 			],
 			[
-				"my",
-				"js\\app\\templates\\mypage\\mypage.html"
+				"read",
+				"node_modules\\async\\README.md"
 			],
 			[
-				"login.j",
-				"js\\app\\models\\login.js"
+				"main.",
+				"assets\\js\\main.js"
 			],
 			[
-				"shopoffline_list.html",
-				"js\\app\\templates\\company\\shopoffline_list.html"
+				"",
+				"assets\\js\\app\\views\\main\\navbar.static.top.view.js"
 			],
 			[
-				"popup/receiveshop",
-				"js\\app\\views\\popup\\receiveShop.js"
+				"ste",
+				"assets\\js\\app\\views\\order\\step.view.js"
 			],
 			[
-				"receivesho",
-				"js\\app\\views\\popup\\receiveShop.js"
+				"navbar",
+				"assets\\js\\app\\views\\main\\navbar.static.top.view.js"
 			],
 			[
-				"uti",
-				"js\\app\\common\\util.js"
+				"slider",
+				"assets\\js\\lib\\slider.js"
 			],
 			[
-				"goods_list_typ",
-				"js\\app\\views\\shop\\goods_list_type1.js"
+				"sli",
+				"assets\\js\\app\\tpl\\lib\\slider.tpl"
 			],
 			[
-				"goods_list",
-				"js\\app\\views\\goods\\goods_list.js"
+				"contet",
+				"assets\\js\\app\\views\\content.view.js"
 			],
 			[
-				"announce_list",
-				"js\\app\\views\\mypage\\announce_list.js"
-			],
-			[
-				"notice_list",
-				"js\\app\\views\\mypage\\notice_list.js"
-			],
-			[
-				"order_history",
-				"js\\app\\views\\order\\order_history.js"
-			],
-			[
-				"my_point_list",
-				"js\\app\\templates\\mypage\\my_point_list.html"
-			],
-			[
-				"order_list",
-				"js\\app\\models\\order\\order_list.js"
-			],
-			[
-				"order_history_list",
-				"js\\app\\views\\order\\order_history_list.js"
-			],
-			[
-				"e",
-				"css\\essential.css"
-			],
-			[
-				"good_list_type1",
-				"js\\app\\templates\\shop\\goods_list_type1.html"
-			],
-			[
-				"my_qna",
-				"js\\app\\views\\mypage\\my_qna_list.js"
-			],
-			[
-				"goodwrap",
-				"js\\app\\views\\goods\\goodWrap.js"
-			],
-			[
-				"my_qna_list.html",
-				"js\\app\\templates\\mypage\\my_qna_list.html"
-			],
-			[
-				"my_qna_wrap",
-				"js\\app\\views\\mypage\\my_qna_wrap.js"
-			],
-			[
-				"good_type",
-				"js\\app\\views\\shop\\goods_list_type1.js"
-			],
-			[
-				"anno",
-				"js\\app\\views\\mypage\\announce_list.js"
-			],
-			[
-				"mobile.",
-				"js\\configurations\\mobile.js"
-			],
-			[
-				"jquery.",
-				"js\\libs\\jquery.js"
-			],
-			[
-				"annou",
-				"js\\app\\views\\mypage\\announce_list.js"
-			],
-			[
-				"main.js",
-				"js\\app\\views\\main\\main.js"
-			],
-			[
-				"touch",
-				"js\\configurations\\touch-emulator.js"
-			],
-			[
-				"main.j",
-				"js\\app\\views\\main\\main.js"
-			],
-			[
-				"caro",
-				"js\\libs\\carousel.js"
-			],
-			[
-				"footer.",
-				"js\\app\\templates\\main\\footer.html"
-			],
-			[
-				"goods_list_w",
-				"js\\app\\views\\shop\\goods_list_wrap.js"
-			],
-			[
-				"goods",
-				"js\\app\\models\\goods\\goods_list.js"
-			],
-			[
-				"goods_list_type",
-				"js\\app\\views\\shop\\goods_list_type1.js"
-			],
-			[
-				"goods_list_type1",
-				"js\\app\\templates\\shop\\goods_list_type1.html"
-			],
-			[
-				"goods_list.h",
-				"js\\app\\templates\\goods\\goods_list.html"
-			],
-			[
-				"goodls",
-				"js\\app\\templates\\goods\\goods_list.html"
-			],
-			[
-				"announce_wr",
-				"js\\app\\views\\mypage\\announce_wrap.js"
-			],
-			[
-				"ann",
-				"js\\app\\views\\mypage\\announce_list.js"
-			],
-			[
-				"review_list",
-				"js\\app\\views\\goods\\review_list.js"
-			],
-			[
-				"join-step1",
-				"js\\app\\views\\join\\join-step1.js"
-			],
-			[
-				"first",
-				"js\\app\\templates\\first.html"
-			],
-			[
-				"stye.c",
-				"css\\styles.css"
-			],
-			[
-				"view.",
-				"app\\views\\view.manager.js"
+				"p2c",
+				"assets\\styles\\p2c.css"
 			],
 			[
 				"layo",
 				"views\\layout.ejs"
 			],
 			[
-				"form.f",
-				"assets\\js\\app\\views\\order\\form.fragment.view.js"
+				"routers",
+				"assets\\js\\app\\router.js"
 			],
 			[
-				"form",
-				"assets\\js\\app\\models\\form.fragment.model.js"
+				"sil",
+				"assets\\js\\lib\\slider.js"
 			],
 			[
-				"form.m",
-				"assets\\js\\app\\models\\form.model.js"
+				"rou",
+				"assets\\js\\app\\router.js"
+			],
+			[
+				"p2",
+				"assets\\styles\\p2c.css"
+			],
+			[
+				"step.a",
+				"assets\\js\\app\\tpl\\order\\step.asheet.tpl"
+			],
+			[
+				"l",
+				"views\\layout.ejs"
+			],
+			[
+				"step",
+				"assets\\js\\app\\views\\order\\step.view.js"
+			],
+			[
+				"sl",
+				"assets\\js\\lib\\slider.js"
+			],
+			[
+				"step.v",
+				"views\\index\\step.view"
 			],
 			[
 				"form.vi",
 				"assets\\js\\app\\views\\order\\form.view.js"
 			],
 			[
-				"form.",
-				"assets\\js\\app\\models\\form.model.js"
+				"cal",
+				"assets\\js\\app\\models\\calc\\calc.paper.model.js"
 			],
 			[
-				"backbone",
-				"assets\\js\\lib\\backbone.js"
+				"calc",
+				"assets\\js\\app\\models\\calc\\calc.paper.model.js"
+			],
+			[
+				"ro",
+				"config\\routes.js"
+			],
+			[
+				"jeolsu.vi",
+				"assets\\js\\app\\views\\admin\\jeolsu.view.js"
+			],
+			[
+				"tpl.jeolsup",
+				"assets\\js\\app\\tpl\\admin\\tpl.jeolsu.parent.js"
+			],
+			[
+				"jeolsupa",
+				"assets\\js\\app\\views\\admin\\jeolsu.parent.view.js"
+			],
+			[
+				"jeolsuco",
+				"assets\\js\\app\\models\\admin\\jeolsucol.js"
+			],
+			[
+				"paperkin",
+				"api\\models\\Paperkinds.js"
+			],
+			[
+				"tpl.for",
+				"assets\\js\\app\\tpl\\order\\tpl.order.form.js"
 			],
 			[
 				"paperkinds",
 				"assets\\js\\app\\collections\\paperkinds.js"
 			],
 			[
-				"tpl.",
+				"tpl",
 				"assets\\js\\app\\tpl\\calc\\tpl.cal.result.js"
 			],
 			[
-				"she",
-				"www\\js\\app\\views\\shell.view.js"
+				"tpl.cal",
+				"assets\\js\\app\\tpl\\calc\\tpl.cal.result.js"
 			],
 			[
-				"righ",
-				"www\\js\\app\\views\\right\\right.view.js"
+				"form.fr",
+				"assets\\js\\app\\models\\form.fragment.model.js"
 			],
 			[
-				"left",
-				"www\\js\\app\\views\\left\\left.view.js"
+				"form.fra",
+				"assets\\js\\app\\views\\order\\form.fragment.view.js"
+			],
+			[
+				"basic",
+				"assets\\js\\app\\views\\calres\\basic.input.info.view.js"
+			],
+			[
+				"wrap.",
+				"assets\\js\\app\\views\\calres\\wrap.view.js"
+			],
+			[
+				"jeolsucol.js",
+				"assets\\js\\app\\models\\admin\\jeolsucol.js"
+			],
+			[
+				"paperki",
+				"assets\\js\\app\\collections\\paperkinds.js"
+			],
+			[
+				"wrap",
+				"assets\\js\\app\\views\\calres\\wrap.view.js"
+			],
+			[
+				"tpl.ca",
+				"assets\\js\\app\\tpl\\calc\\tpl.cal.result.js"
+			],
+			[
+				"form.m",
+				"assets\\js\\app\\models\\form.model.js"
+			],
+			[
+				"tpl.or",
+				"assets\\js\\app\\tpl\\order\\tpl.order.form.js"
+			],
+			[
+				"backbon",
+				"assets\\js\\lib\\backbone.js"
+			],
+			[
+				"wrap.v",
+				"assets\\js\\app\\views\\calres\\wrap.view.js"
+			],
+			[
+				"tpl.",
+				"assets\\js\\app\\tpl\\order\\tpl.order.form.js"
+			],
+			[
+				"jeolsuc",
+				"assets\\js\\app\\models\\admin\\jeolsucol.js"
+			],
+			[
+				"basic.in",
+				"assets\\js\\app\\views\\calres\\basic.input.info.view.js"
+			],
+			[
+				"basic.inpu",
+				"assets\\js\\app\\views\\calres\\basic.input.info.view.js"
+			],
+			[
+				"wr",
+				"assets\\js\\app\\views\\calres\\wrap.view.js"
+			],
+			[
+				"paperkinds.p",
+				"assets\\js\\app\\views\\admin\\paperkinds.parent.view.js"
+			],
+			[
+				"basic.",
+				"assets\\js\\app\\views\\calres\\basic.input.info.js"
+			],
+			[
+				"ba",
+				"assets\\js\\app\\back.router"
+			],
+			[
+				"back",
+				"assets\\js\\app\\back.router"
+			],
+			[
+				"for",
+				"assets\\js\\app\\views\\order\\form.view.js"
+			],
+			[
+				"jquery.tmp",
+				"assets\\js\\lib\\jquery.tmpl.js"
+			],
+			[
+				"jeo",
+				"api\\models\\Jeolsutable.js"
+			],
+			[
+				".jsbe",
+				"C:\\Users\\muphy\\AppData\\Roaming\\Sublime Text 3\\Packages\\HTML-CSS-JS Prettify\\.jsbeautifyrc"
+			],
+			[
+				"sam",
+				"views\\home\\sample.ejs"
+			],
+			[
+				"sa",
+				"views\\home\\sample.ejs"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 625.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"D:\\project\\mcm\\05preview\\messager\\tray\\readertray-read-only\\mcm_messenger.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{
-		"height": 375.0,
+		"height": 45.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"header",
-				"HeaderView"
-			]
 		],
-		"width": 378.0
+		"width": 787.0
 	},
 	"selected_group": 0,
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 217.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
