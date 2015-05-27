@@ -22,7 +22,8 @@ function today() {
 
 function URLs() {
     var PROGRAME_BASE_URL = 'http://tvguide.naver.com/program/multiChannel.nhn?';
-    var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s'];
+    var urlFormatterList = [PROGRAME_BASE_URL + 'broadcastType=100&date=%s', PROGRAME_BASE_URL + 'broadcastType=500&channelGroup=46&date=%s',
+    'http://tvguide.naver.com/program/multiChannel.nhn?broadcastType=200&channelGroup=13&date=%s'];
     var URLs = _.map(urlFormatterList, function(urlFormat) {
         return util.format(urlFormat, today());
     });
@@ -82,7 +83,7 @@ function process() {
             list = _.pick(list, function(e, i) {
                 return currentTime >= e.beginTime && currentTime <= e.endTime;
             });
-            fs.writeFile("result.json", JSON.stringify(list), function(err) {
+            fs.writeFile("result.json", JSON.stringify(_.values(list)), function(err) {
                 if (err) {
                     return console.log(err);
                 }
